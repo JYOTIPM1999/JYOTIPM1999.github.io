@@ -18,7 +18,7 @@ const GitHub = () => {
           textDecorationStyle: "double",
         }}
       >
-        Github Calender
+        Github Calender & Stats
       </h1>
       <div w={["100%", "100%", "65%"]} style={github}>
         <GitHubCalendar

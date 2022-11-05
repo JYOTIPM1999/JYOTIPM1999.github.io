@@ -30,19 +30,7 @@ export const ContactMe = () => {
     <>
       <div id="CONTACT" className={styles.mainDiv}>
         <h1 className={styles.head}>Get in touch</h1>
-        <form
-          id="contact-form"
-          onSubmit={sendEmail}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            margin: "auto",
-            width: "20%",
-            padding: "20px",
-            // border: "3px solid red",
-            backgroundColor: "white",
-          }}
-        >
+        <form id="contact-form" onSubmit={sendEmail} className={styles.formtag}>
           <label>Name</label>
           <input type="text" name="user_name" />
           <label>Email</label>
@@ -50,7 +38,15 @@ export const ContactMe = () => {
           <label>Message</label>
           <textarea name="message" style={{ height: "80px" }}></textarea>
           <br />
-          <input type="submit" value="Send" />
+          <input
+            type="submit"
+            value="Send"
+            style={{
+              backgroundColor: "#fecd45",
+              padding: "5px",
+              fontWeight: "bold",
+            }}
+          />
         </form>
 
         <div className={styles.atag}>

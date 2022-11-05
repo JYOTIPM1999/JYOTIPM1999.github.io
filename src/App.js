@@ -7,6 +7,7 @@ import { Projects } from "./Pages/Project";
 import { Skills } from "./Pages/Skills";
 import { TbFileDownload } from "react-icons/tb";
 import GitHub from "./Pages/Github";
+import { GithubStats } from "./Pages/GithubStats";
 // import GitHubCalendar from "react-github-calendar";
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
       <br />
       <br />
       <GitHub />
+      <GithubStats />
 
       <ContactMe />
       <p style={{ textAlign: "center", color: "white" }}>
