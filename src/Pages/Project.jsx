@@ -88,6 +88,46 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+
+        <br />
+        <br />
+        <div className={styles.project}>
+          <div>
+            <img src="./Image/tt.png" alt="tt.png" className={styles.image} />
+          </div>
+          <div>
+            <h2 className={styles.h2text}>Tracking Time Clone</h2>
+            <p className={styles.para}>
+              <span style={{ color: "red", fontSize: "bold" }}>
+                Description:-{" "}
+              </span>
+              It is an Time Management website. Group projects efficiency and
+              productivity can tracked here.
+            </p>
+            <h4 className={styles.h2text}>
+              Tech Stack used: React | Node | MongoDB | ExpressJS | Redux| Java
+              Script | HTML 5 | CSS 3 |
+            </h4>
+            <div className={styles.buttonDiv}>
+              <button className={styles.buttons}>
+                <a
+                  href="https://github.com/JYOTIPM1999/expert-hand-9078"
+                  target="_blank"
+                >
+                  Source Code
+                </a>
+              </button>
+              <button className={styles.buttons}>
+                <a
+                  href="https://snazzy-nougat-6ca032.netlify.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
       <div>
         <img src="./Image/project.webp" className={styles.projectIcon} />
