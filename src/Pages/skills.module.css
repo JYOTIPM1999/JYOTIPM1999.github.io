@@ -1,0 +1,90 @@
+.main {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  gap: 20px;
+}
+.gif img {
+  width: 90%;
+  height: 100%;
+  border-radius: 20px;
+}
+.skill {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  gap: 20px;
+}
+.main > div > div {
+  border: 3px solid whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 2s;
+}
+.main > div > div > img {
+  height: 120px;
+  width: 120px;
+}
+.main > div > div:hover {
+  border: 3px solid #fecd45;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.head {
+  color: #fecd45;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+@media (min-width: 515px) and (max-width: 900px) {
+  .head {
+    font-size: 25px;
+  }
+  .main {
+    width: 80%;
+  }
+  .gif img {
+    width: 100%;
+  }
+  .skill {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .main > div > div {
+    padding: 10px;
+    transition: transform 1.5s;
+  }
+  .main > div > div > img {
+    height: 70px;
+    width: 100%;
+  }
+  .main > div > div:hover {
+    transform: scale(1.15);
+  }
+}
+@media (max-width: 514px) {
+  .head {
+    font-size: 20px;
+  }
+  .main {
+    width: 65%;
+    display: block;
+  }
+  .gif img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skill {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main > div > div {
+    padding: 8px;
+    transition: transform 1s;
+  }
+  .main > div > div > img {
+    height: 60px;
+    width: 100%;
+  }
+}

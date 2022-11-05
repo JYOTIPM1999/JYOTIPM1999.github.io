@@ -1,0 +1,94 @@
+.mainDiv {
+  margin: auto;
+  text-align: center;
+}
+.box {
+  border: 3px solid white;
+  width: 30%;
+  border-radius: 20px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 15px;
+  line-height: 10px;
+  transition: transform 2s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box:hover {
+  border: 3px solid #fecd45;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+/* .skillshead {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
+.ul {
+  line-height: 20px;
+  color: #fdf5df;
+  font-size: 15px;
+  font-weight: 500;
+}
+.h5 {
+  color: #fdf5df;
+  font-style: italic;
+}
+
+.head {
+  color: #fecd45;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+.h2text {
+  color: #fecd45;
+  font-weight: bold;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+.ptext {
+  margin-left: 30px;
+  color: white;
+}
+@media (min-width: 515px) and (max-width: 900px) {
+  .head {
+    font-size: 25px;
+  }
+  .box {
+    width: 70%;
+    line-height: 18px;
+    transition: transform 1.5s;
+  }
+}
+@media (max-width: 514px) {
+  .head {
+    font-size: 20px;
+  }
+  .box {
+    width: 70%;
+    line-height: 18px;
+    transition: transform 1s;
+  }
+  .h2text {
+    font-size: 15px;
+  }
+  .h4text {
+    font-size: 12px;
+  }
+  .h5 {
+    font-size: 12px;
+  }
+  .ul {
+    font-size: 10px;
+  }
+  .ptext {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+}

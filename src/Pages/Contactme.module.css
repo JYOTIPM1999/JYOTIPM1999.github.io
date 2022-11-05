@@ -1,0 +1,94 @@
+.head {
+  color: #09071c;
+  font-weight: bold;
+  text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
+    1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+  text-align: center;
+}
+.mainDiv {
+  background-color: #fecd45;
+  padding: 10px;
+}
+
+hr {
+  position: relative;
+  top: -20px;
+  border: none;
+  height: 5px;
+  background: #09071c;
+  width: 10%;
+}
+
+.atag {
+  margin: auto;
+  margin-top: 20px;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.github:hover,
+.linkedin:hover,
+.youtube:hover {
+  border: 3px solid white;
+  background-color: red;
+  color: white;
+}
+.github,
+.linkedin {
+  color: rgb(7, 7, 105);
+  border: 3px solid black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(11, 28, 138, 0.771) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(15, 24, 156, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.contact {
+  font-size: 25px;
+}
+.email {
+  border: 3px solid black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(216, 81, 8, 0.788) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  border-radius: 50%;
+  color: rgb(176, 53, 19);
+}
+.youtube {
+  border: 3px solid black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(222, 14, 14, 0.818) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  border-radius: 50%;
+  color: red;
+}
+
+@media (min-width: 515px) and (max-width: 900px) {
+  .atag {
+    width: 50%;
+    font-size: 40px;
+  }
+  .head {
+    font-size: 20px;
+  }
+  hr {
+    top: -5px;
+    height: 4px;
+  }
+}
+@media (max-width: 514px) {
+  .atag {
+    width: 50%;
+    font-size: 20px;
+  }
+  .head {
+    font-size: 15px;
+  }
+  hr {
+    top: -5px;
+    height: 3px;
+  }
+}
