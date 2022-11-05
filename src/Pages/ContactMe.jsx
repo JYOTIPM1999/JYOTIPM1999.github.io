@@ -50,13 +50,13 @@ export const ContactMe = () => {
         </form>
 
         <div className={styles.atag}>
-          <a
-            href="https://www.linkedin.com/in/jyoti-prakash-mohapatra-8550a61a5/"
-            target="_blank"
-          >
+          <a href="https://github.com/JYOTIPM1999" target="_blank">
             <FaGithub className={styles.github} />
           </a>
-          <a href="https://github.com/JYOTIPM1999" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/jyoti-prakash-mohapatra-8550a61a5/</div>"
+            target="_blank"
+          >
             <BsLinkedin className={styles.linkedin} />
           </a>
 
