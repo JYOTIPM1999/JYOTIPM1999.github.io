@@ -39,6 +39,7 @@
 }
 .image {
   height: 50px;
+  border-radius: 50%;
 }
 @media (min-width: 515px) and (max-width: 900px) {
   .mainDiv {
