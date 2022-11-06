@@ -38,16 +38,7 @@ export const ContactMe = () => {
           <label>Message</label>
           <textarea name="message" style={{ height: "80px" }}></textarea>
           <br />
-          <input
-            type="submit"
-            value="Send"
-            style={{
-              backgroundColor: "#fecd45",
-              padding: "5px",
-              fontWeight: "bold",
-              cursor: "pointer",
-            }}
-          />
+          <input type="submit" value="Send" className={styles.inputSubmit} />
         </form>
 
         <div className={styles.atag}>
@@ -72,29 +63,3 @@ export const ContactMe = () => {
     </>
   );
 };
-
-{
-  /* <h1 className={styles.head}>Get in touch</h1>
-      <hr></hr>
-      <div className={styles.atag}>
-        <a
-          href="https://www.linkedin.com/in/jyoti-prakash-mohapatra-8550a61a5/"
-          target="_blank"
-        >
-          <FaGithub className={styles.github} />
-        </a>
-        <a href="https://github.com/JYOTIPM1999" target="_blank">
-          <BsLinkedin className={styles.linkedin} />
-        </a>
-
-        <a
-          href="https://www.youtube.com/channel/UCDFhJrpwkcPyIJbuD_YPM8g"
-          target="_blank"
-        >
-          <FiYoutube className={styles.youtube} />
-        </a>
-      </div>
-      <h3 style={{ textAlign: "center", color: "white" }}>
-        Contact me on -9337841077 <BiPhoneCall />
-      </h3> */
-}

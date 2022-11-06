@@ -19,13 +19,17 @@
   background-color: white;
   border-radius: 20px;
 }
-hr {
-  position: relative;
-  top: -20px;
-  border: none;
-  height: 5px;
-  background: #09071c;
-  width: 10%;
+.inputSubmit {
+  background-color: #fecd45;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.inputSubmit:hover {
+  background-color: black;
+  color: #fecd45;
+  border: 2px solid #fecd45;
 }
 
 .atag {
@@ -53,18 +57,7 @@ hr {
   padding: 10px;
   border-radius: 50%;
 }
-.contact {
-  font-size: 25px;
-}
-.email {
-  border: 3px solid black;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(216, 81, 8, 0.788) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  padding: 10px;
-  border-radius: 50%;
-  color: rgb(176, 53, 19);
-}
+
 .youtube {
   border: 3px solid black;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
