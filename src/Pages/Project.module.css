@@ -49,8 +49,8 @@
   margin: auto;
 }
 .buttons:hover {
-  background-color: red;
-  border: 2px solid white;
+  background-color: white;
+  border: 2px solid #fecd45;
 }
 .h2text {
   color: #fecd45;
