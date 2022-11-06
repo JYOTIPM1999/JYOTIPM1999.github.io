@@ -16,7 +16,7 @@ export const Projects = () => {
           <div>
             <h2 className={styles.h2text}>Chat App</h2>
             <p className={styles.para}>
-              <span style={{ color: "red", fontSize: "bold" }}>
+              <span style={{ color: "#fecd45", fontSize: "bold" }}>
                 Description:-{" "}
               </span>
               It is an one to one and group chat app, you can make group with
@@ -52,7 +52,7 @@ export const Projects = () => {
           <div>
             <h2 className={styles.h2text}>Tracking Time Clone</h2>
             <p className={styles.para}>
-              <span style={{ color: "red", fontSize: "bold" }}>
+              <span style={{ color: "#fecd45", fontSize: "bold" }}>
                 Description:-{" "}
               </span>
               It is a Time Management website. Group projects efficiency and
@@ -95,7 +95,7 @@ export const Projects = () => {
           <div>
             <h2 className={styles.h2text}>Apple TV Clone</h2>
             <p className={styles.para}>
-              <span style={{ color: "red", fontSize: "bold" }}>
+              <span style={{ color: "#fecd45", fontSize: "bold" }}>
                 Description:-{" "}
               </span>
               It is an OTT platform with E-commerece facility. Users can watch
@@ -137,7 +137,7 @@ export const Projects = () => {
           <div>
             <h2 className={styles.h2text}>Beauty Bebo Clone</h2>
             <p className={styles.para}>
-              <span style={{ color: "red", fontSize: "bold" }}>
+              <span style={{ color: "#fecd45", fontSize: "bold" }}>
                 Description:-{" "}
               </span>
               It is an E-commerece website for womens and baby care. Users can
