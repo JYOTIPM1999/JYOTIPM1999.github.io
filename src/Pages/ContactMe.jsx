@@ -54,7 +54,7 @@ export const ContactMe = () => {
             <FaGithub className={styles.github} />
           </a>
           <a
-            href="https://www.linkedin.com/in/jyoti-prakash-mohapatra-8550a61a5/</div>"
+            href="https://www.linkedin.com/in/jyoti-prakash-mohapatra-8550a61a5"
             target="_blank"
           >
             <BsLinkedin className={styles.linkedin} />
