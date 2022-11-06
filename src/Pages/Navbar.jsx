@@ -12,7 +12,7 @@ export const Navbar = () => {
   return (
     <div className={styles.mainDiv}>
       <Link to={"Homepage"} smooth={true} offset={-105} duration={1500}>
-        <img src="./Image/logo.gif" alt="logo.gif" className={styles.image} />
+        <img src="./Image/logos.gif" alt="logos.gif" className={styles.image} />
       </Link>
       <ul className={styles.ull}>
         {menu.map((el) => (
