@@ -45,6 +45,7 @@ export const ContactMe = () => {
               backgroundColor: "#fecd45",
               padding: "5px",
               fontWeight: "bold",
+              cursor: "pointer",
             }}
           />
         </form>
