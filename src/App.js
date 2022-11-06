@@ -45,7 +45,6 @@ function App() {
       <br />
       <br />
       <br />
-
       <Experience />
       <br />
       <br />
@@ -68,8 +67,8 @@ function App() {
       <br />
       <br />
       <GitHub />
+      <br />
       <GithubStats />
-
       <ContactMe />
       <p style={{ textAlign: "center", color: "white" }}>
         Designed by - Jyoti Prakash Mohapatra | jyotipm1999@gmail.com | All

@@ -1,0 +1,17 @@
+.mainDiv {
+  margin: auto;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fdd935;
+  width: 80%;
+}
+.mainDiv:hover {
+  background-color: white;
+}
+.h1Tag {
+  color: #fecd45;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
