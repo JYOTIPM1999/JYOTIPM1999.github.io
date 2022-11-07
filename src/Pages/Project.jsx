@@ -1,4 +1,7 @@
 import styles from "./Project.module.css";
+import { AiFillGithub } from "react-icons/ai";
+import { MdLiveTv } from "react-icons/md";
+
 export const Projects = () => {
   return (
     <div id="PROJECTS" className={styles.main}>
@@ -32,7 +35,7 @@ export const Projects = () => {
                   href="https://github.com/JYOTIPM1999/Chat_App/tree/main/Chat_App"
                   target="_blank"
                 >
-                  Source Code
+                  <AiFillGithub className={styles.icons} />
                 </a>
               </button>
               <button className={styles.buttons}>
@@ -40,7 +43,7 @@ export const Projects = () => {
                   href="https://chat-app-made-by-jyoti.vercel.app"
                   target="_blank"
                 >
-                  Live
+                  <MdLiveTv className={styles.icons} />
                 </a>
               </button>
             </div>
@@ -71,7 +74,7 @@ export const Projects = () => {
                   href="https://github.com/JYOTIPM1999/expert-hand-9078"
                   target="_blank"
                 >
-                  Source Code
+                  <AiFillGithub className={styles.icons} />
                 </a>
               </button>
               <button className={styles.buttons}>
@@ -79,7 +82,7 @@ export const Projects = () => {
                   href="https://snazzy-nougat-6ca032.netlify.app/"
                   target="_blank"
                 >
-                  Live
+                  <MdLiveTv className={styles.icons} />
                 </a>
               </button>
             </div>
@@ -115,7 +118,7 @@ export const Projects = () => {
                   href="https://github.com/Amankumar654321/AppleTv_Clone"
                   target="_blank"
                 >
-                  Source Code
+                  <AiFillGithub className={styles.icons} />
                 </a>
               </button>
               <button className={styles.buttons}>
@@ -123,7 +126,7 @@ export const Projects = () => {
                   href="https://dazzling-paprenjak-91b876.netlify.app/"
                   target="_blank"
                 >
-                  Live
+                  <MdLiveTv className={styles.icons} />
                 </a>
               </button>
             </div>
@@ -156,7 +159,7 @@ export const Projects = () => {
                   href="https://github.com/HackerSushant76/BeautyBebo"
                   target="_blank"
                 >
-                  Source Code
+                  <AiFillGithub className={styles.icons} />
                 </a>
               </button>
               <button className={styles.buttons}>
@@ -164,7 +167,7 @@ export const Projects = () => {
                   href="https://rainbow-frangipane-7695ac.netlify.app/"
                   target="_blank"
                 >
-                  Live
+                  <MdLiveTv className={styles.icons} />
                 </a>
               </button>
             </div>

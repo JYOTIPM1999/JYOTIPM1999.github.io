@@ -34,6 +34,9 @@
   font-weight: bold;
   /* animation: mymove 5s infinite; */
 }
+.icons {
+  font-size: 30px;
+}
 /* @keyframes mymove {
   from {
     background-color: #fecd45;
@@ -108,6 +111,9 @@ a {
     padding: 5px;
     font-size: 10px;
   }
+  .icons {
+    font-size: 25px;
+  }
 }
 @media (max-width: 514px) {
   .main {
@@ -137,5 +143,8 @@ a {
   }
   .buttonDiv {
     width: 90%;
+  }
+  .icons {
+    font-size: 15px;
   }
 }
