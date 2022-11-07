@@ -36,7 +36,10 @@ export const Projects = () => {
                 </a>
               </button>
               <button className={styles.buttons}>
-                <a href="#" target="_blank">
+                <a
+                  href="https://chat-app-made-by-jyoti.vercel.app"
+                  target="_blank"
+                >
                   Live
                 </a>
               </button>
