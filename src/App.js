@@ -8,7 +8,6 @@ import { Skills } from "./Pages/Skills";
 import { TbFileDownload } from "react-icons/tb";
 import GitHub from "./Pages/Github";
 import { GithubStats } from "./Pages/GithubStats";
-// import GitHubCalendar from "react-github-calendar";
 
 function App() {
   return (
@@ -29,17 +28,6 @@ function App() {
       <br />
       <br />
       <br />
-      {/* <h1
-        style={{
-          color: "white",
-          textDecorationLine: "underline",
-          textDecorationStyle: "double",
-          color: "#fecd45",
-          textAlign: "center",
-        }}
-      >
-        Skills
-      </h1> */}
       <Skills />
       <br />
       <br />
@@ -50,17 +38,6 @@ function App() {
       <br />
       <br />
       <br />
-      {/* <h1
-        style={{
-          color: "white",
-          textDecorationLine: "underline",
-          textDecorationStyle: "double",
-          color: "#fecd45",
-          textAlign: "center",
-        }}
-      >
-        My Recent Works
-      </h1> */}
       <Projects />
       <br />
       <br />
@@ -74,11 +51,6 @@ function App() {
         Designed by - Jyoti Prakash Mohapatra | jyotipm1999@gmail.com | All
         rights reserved, 2022
       </p>
-      {/* <div>
-        <h1>Hello CodeSandbox!</h1>
-        <p>Start editing to see some magic happen :) test</p>
-      </div>
-      <GitHubCalendar username="JYOTIPM1999" /> */}
     </div>
   );
 }

@@ -10,6 +10,45 @@ export const Projects = () => {
         <div>
           <div className={styles.project}>
             <div>
+              <img src="./Image/hb.png" alt="hb.png" className={styles.image} />
+            </div>
+            <div>
+              <h2 className={styles.h2text}>Heaven's Basket</h2>
+              <p className={styles.para}>
+                <span style={{ color: "#fecd45", fontSize: "bold" }}>
+                  Description:-{" "}
+                </span>
+                It is an shopping platform with E-commerece facility. Users can
+                watch their favorite fruites and beverages.
+              </p>
+              <h4 className={styles.h2text}>
+                Tech Stack used: NextJS | JWT | Java Script MongoDB | NodeJS |
+                ChakraUI | HTML 5 | CSS 3
+              </h4>
+              <div className={styles.buttonDiv}>
+                <button className={styles.buttons}>
+                  <a
+                    href="https://github.com/JYOTIPM1999/Heaven-s-Basket"
+                    target="_blank"
+                  >
+                    <AiFillGithub className={styles.icons} />
+                  </a>
+                </button>
+                <button className={styles.buttons}>
+                  <a
+                    href="https://annoyed-spark-4097-6yv7.vercel.app/"
+                    target="_blank"
+                  >
+                    <MdLiveTv className={styles.icons} />
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div className={styles.project}>
+            <div>
               <img
                 src="./Image/chatapp.png"
                 alt="chatapp.png"
