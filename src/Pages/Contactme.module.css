@@ -68,7 +68,7 @@
   color: red;
 }
 .phnDiv {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 @media (min-width: 515px) and (max-width: 900px) {
@@ -87,7 +87,7 @@
     height: 4px;
   }
   .phnDiv {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 @media (max-width: 514px) {
@@ -105,5 +105,8 @@
   hr {
     top: -5px;
     height: 3px;
+  }
+  .phnDiv {
+    font-size: 10px;
   }
 }
