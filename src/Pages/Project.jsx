@@ -12,7 +12,7 @@ export const Projects = () => {
           <div>
             <img
               src="./Image/chatapp.png"
-              alt="tt.png"
+              alt="chatapp.png"
               className={styles.image}
             />
           </div>
