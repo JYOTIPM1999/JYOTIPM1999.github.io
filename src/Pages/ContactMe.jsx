@@ -59,6 +59,18 @@ export const ContactMe = () => {
             <FiYoutube className={styles.youtube} />
           </a>
         </div>
+        <div
+        className={styles.phnDiv}
+          style={{
+            display: "flex",
+            color: "white",
+            justifyContent: "center",
+            gap: "20px",
+          }}
+        >
+          <p>Contact Number- +91 93378 41077</p>
+          <p>Email- jyotipm1999@gmail.com</p>
+        </div>
       </div>
     </>
   );

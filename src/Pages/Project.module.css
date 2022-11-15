@@ -79,12 +79,14 @@ a {
   text-decoration-line: underline;
   text-decoration-style: double;
   color: #fecd45;
+  text-align: center;
 }
 
 @media (min-width: 515px) and (max-width: 900px) {
   .projectIcon {
-    height: 100%;
-    width: 100%;
+    display: none;
+    /* height: 80%;
+    width: 80%; */
   }
   .head {
     font-size: 25px;

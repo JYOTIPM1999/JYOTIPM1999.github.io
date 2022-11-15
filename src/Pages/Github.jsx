@@ -4,16 +4,18 @@ import GitHubCalendar from "react-github-calendar";
 
 const GitHub = () => {
   return (
-    <div>
+    <>
       <h1 className={styles.h1Tag}>Github Calender & Stats</h1>
-      <div w={["100%", "100%", "65%"]} className={styles.mainDiv}>
-        <GitHubCalendar
-          style={{ margin: "auto" }}
-          username="JYOTIPM1999"
-          year={new Date().getFullYear()}
-        />
+      <div>
+        <div w={["100%", "100%", "65%"]} className={styles.mainDiv}>
+          <GitHubCalendar
+            style={{ margin: "auto" }}
+            username="JYOTIPM1999"
+            year={new Date().getFullYear()}
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

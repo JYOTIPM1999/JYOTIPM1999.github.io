@@ -29,7 +29,7 @@ function App() {
       <br />
       <br />
       <br />
-      <h1
+      {/* <h1
         style={{
           color: "white",
           textDecorationLine: "underline",
@@ -39,7 +39,7 @@ function App() {
         }}
       >
         Skills
-      </h1>
+      </h1> */}
       <Skills />
       <br />
       <br />
@@ -50,7 +50,7 @@ function App() {
       <br />
       <br />
       <br />
-      <h1
+      {/* <h1
         style={{
           color: "white",
           textDecorationLine: "underline",
@@ -60,7 +60,7 @@ function App() {
         }}
       >
         My Recent Works
-      </h1>
+      </h1> */}
       <Projects />
       <br />
       <br />

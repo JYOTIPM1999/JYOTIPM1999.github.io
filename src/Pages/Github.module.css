@@ -10,8 +10,19 @@
   background-color: white;
 }
 .h1Tag {
-  color: #fecd45;
-  text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
+  color: #fecd45;
+  text-align: center;
+}
+
+@media (min-width: 515px) and (max-width: 900px) {
+  .h1Tag {
+    font-size: 25px;
+  }
+}
+@media (min-width: 385px) {
+  .h1Tag {
+    font-size: 20px;
+  }
 }
