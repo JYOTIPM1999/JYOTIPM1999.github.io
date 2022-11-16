@@ -19,6 +19,7 @@
   padding: 10px;
   border-radius: 20px;
   gap: 15px;
+  margin-bottom: 30px;
   transition: transform 2s;
 }
 .project:hover {
@@ -93,7 +94,7 @@ a {
   }
   .project {
     width: 95%;
-    margin: auto;
+    /* margin: auto; */
   }
   .image {
     width: 100%;
@@ -145,6 +146,7 @@ a {
   }
   .buttonDiv {
     width: 90%;
+    justify-content: space-around;
   }
   .icons {
     font-size: 15px;
