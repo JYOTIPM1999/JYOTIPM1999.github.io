@@ -1,6 +1,24 @@
 import styles from "./Project.module.css";
 import { AiFillGithub } from "react-icons/ai";
 import { MdLiveTv } from "react-icons/md";
+const project = [
+  {
+    image: "./Image/hb.png",
+    title: "Heaven's Basket",
+    desc: "It is an shopping platform with E-commerece facility. Users can watch their favorite fruites and beverages.",
+    tech: "NextJS | JWT | Java Script MongoDB | NodeJS | ChakraUI | HTML 5 | CSS 3",
+    github: "https://github.com/JYOTIPM1999/Heaven-s-Basket",
+    live: "https://annoyed-spark-4097-6yv7.vercel.app/",
+  },
+  {
+    image: "./Image/chatapp.png",
+    title: "Chat_App",
+    desc: "It is an shopping platform with E-commerece facility. Users can watch their favorite fruites and beverages.",
+    tech: "NextJS | JWT | Java Script MongoDB | NodeJS | ChakraUI | HTML 5 | CSS 3",
+    github: "https://github.com/JYOTIPM1999/Heaven-s-Basket",
+    live: "https://annoyed-spark-4097-6yv7.vercel.app/",
+  },
+];
 
 export const Projects = () => {
   return (
