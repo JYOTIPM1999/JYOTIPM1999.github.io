@@ -57,14 +57,16 @@
   }
 }
 @media (max-width: 514px) {
-  /* .mainDiv {
-    background-color: blue;
-  } */
+  .mainDiv {
+    /* padding: 0px; */
+    justify-content: space-evenly;
+  }
+
   .lii {
     font-size: 10px;
   }
   .ull {
-    gap: 10px;
+    gap: 5px;
   }
   .image {
     height: 30px;
