@@ -16,7 +16,7 @@ export const Experience = () => {
           <a
             href="https://www.masaischool.com/"
             target="_blank"
-            style={{ textDecoration: "none", color: "white" }}
+            style={{ textDecoration: "none", color: "#05386b" }}
           >
             Masai School, Bangalore <FiExternalLink />, (02.2022 - 11.2022)
           </a>
@@ -36,7 +36,7 @@ export const Experience = () => {
       <div className={styles.box}>
         <h2 className={styles.h2text}>
           Chartered Accountacy
-          <BsFillJournalBookmarkFill style={{ color: "white" }} />
+          <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
         </h2>
         <h4 className={styles.h4text}>
           <a
@@ -68,13 +68,13 @@ export const Experience = () => {
 
       <div className={styles.box}>
         <h2 className={styles.h2text}>
-          B.Com <BsFillJournalBookmarkFill style={{ color: "white" }} />
+          B.Com <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
         </h2>
         <h4 className={styles.h4text}>
           <a
             href="https://utkaluniversity.ac.in/"
             target="_blank"
-            style={{ textDecoration: "none", color: "white" }}
+            style={{ textDecoration: "none", color: "#05386b" }}
           >
             Utkal University, Bhubaneswar <FiExternalLink />, (08.2016 -
             03.2019)

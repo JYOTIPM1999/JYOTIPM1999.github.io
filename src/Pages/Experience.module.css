@@ -31,12 +31,12 @@
 } */
 .ul {
   line-height: 20px;
-  color: #fdf5df;
+  color: #05386b;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
-  color: #fdf5df;
+  color: #05386b;
   font-style: italic;
 }
 
@@ -54,7 +54,7 @@
 }
 .ptext {
   margin-left: 30px;
-  color: white;
+  color: #05386b;
 }
 @media (min-width: 515px) and (max-width: 900px) {
   .head {

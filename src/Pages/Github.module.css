@@ -3,11 +3,13 @@
   font-weight: bold;
   padding: 20px;
   border-radius: 10px;
-  background-color: #5cdb95;
+  background-color: #05386b;
+  color: white;
   width: 80%;
 }
 .mainDiv:hover {
-  background-color: white;
+  background-color: #5cdb95;
+  color: #05386b;
 }
 .h1Tag {
   text-decoration-line: underline;
