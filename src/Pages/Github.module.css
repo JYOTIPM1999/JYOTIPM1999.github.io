@@ -3,7 +3,7 @@
   font-weight: bold;
   padding: 20px;
   border-radius: 10px;
-  background-color: #fdd935;
+  background-color: tomato;
   width: 80%;
 }
 .mainDiv:hover {
@@ -12,7 +12,7 @@
 .h1Tag {
   text-decoration-line: underline;
   text-decoration-style: double;
-  color: #fecd45;
+  color: tomato;
   text-align: center;
 }
 

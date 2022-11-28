@@ -49,7 +49,7 @@
 .resumeBtn {
   padding: 10px;
   border-radius: 10px;
-  background-color: #fdd935;
+  background-color: tomato;
   font-weight: bold;
   cursor: pointer;
   box-shadow: rgba(193, 193, 86, 0.926) 0px 5px 15px;
@@ -74,11 +74,11 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #fecd45;
+  background: tomato;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #fecd45;
+  background: tomato;
 }

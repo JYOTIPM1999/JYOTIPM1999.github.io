@@ -6,7 +6,7 @@
   text-align: center;
 }
 .mainDiv {
-  background-color: #fecd45;
+  background-color: tomato;
   padding: 10px;
 }
 .formtag {
@@ -20,7 +20,7 @@
   border-radius: 20px;
 }
 .inputSubmit {
-  background-color: #fecd45;
+  background-color: tomato;
   padding: 5px;
   border-radius: 10px;
   font-weight: bold;
@@ -28,8 +28,8 @@
 }
 .inputSubmit:hover {
   background-color: black;
-  color: #fecd45;
-  border: 2px solid #fecd45;
+  color: tomato;
+  border: 2px solid tomato;
 }
 
 .atag {

@@ -16,7 +16,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .box:hover {
-  border: 3px solid #fecd45;
+  border: 3px solid tomato;
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -41,13 +41,13 @@
 }
 
 .head {
-  color: #fecd45;
+  color: tomato;
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
 }
 .h2text {
-  color: #fecd45;
+  color: tomato;
   font-weight: bold;
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;

@@ -27,12 +27,12 @@
   width: 120px;
 }
 .main > div > div:hover {
-  border: 3px solid #fecd45;
+  border: 3px solid tomato;
   transform: scale(1.2);
   cursor: pointer;
 }
 .head {
-  color: #fecd45;
+  color: tomato;
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
