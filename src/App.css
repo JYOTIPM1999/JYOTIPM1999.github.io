@@ -52,12 +52,12 @@
   background-color: #5cdb95;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: rgba(193, 193, 86, 0.926) 0px 5px 15px;
+  box-shadow: #05386b 0px 5px 15px;
   border: 1px solid white;
 }
 .resumeBtn:hover {
-  background-color: white;
-  color: black;
+  background-color: #05386b;
+  color: #5cdb95;
   box-shadow: rgba(244, 244, 229, 0.926) 0px 5px 15px;
   border: 1px solid black;
 }

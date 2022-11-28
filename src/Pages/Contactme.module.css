@@ -43,29 +43,30 @@
 .github:hover,
 .linkedin:hover,
 .youtube:hover {
-  border: 3px solid white;
-  background-color: red;
+  border: 3px solid #05386b;
+  background-color: #5cdb95;
   color: white;
 }
 .github,
 .linkedin {
-  color: rgb(7, 7, 105);
+  color: white;
   border: 3px solid black;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(11, 28, 138, 0.771) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(15, 24, 156, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    rgba(15, 24, 156, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
   padding: 10px;
   border-radius: 50%;
+  background-color: rgb(7, 7, 105);
 }
 
 .youtube {
-  border: 3px solid black;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  border: 3px solid white;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(222, 14, 14, 0.818) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
   padding: 10px;
   border-radius: 50%;
-  color: red;
+  background-color: red;
 }
 .phnDiv {
   font-size: 20px;

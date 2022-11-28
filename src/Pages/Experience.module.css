@@ -1,6 +1,8 @@
 .mainDiv {
   margin: auto;
   text-align: center;
+  background-color: #05386b;
+  padding: 2%;
 }
 .box {
   border: 3px solid white;
@@ -31,30 +33,30 @@
 } */
 .ul {
   line-height: 20px;
-  color: #05386b;
+  color: #edf5e1;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
-  color: #05386b;
+  color: #edf5e1;
   font-style: italic;
 }
 
 .head {
-  color: #05386b;
+  color: #5cdb95;
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
 }
 .h2text {
-  color: #5cdb95;
+  color: #edf5e1;
   font-weight: bold;
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 .ptext {
   margin-left: 30px;
-  color: #05386b;
+  color: #edf5e1;
 }
 @media (min-width: 515px) and (max-width: 900px) {
   .head {
