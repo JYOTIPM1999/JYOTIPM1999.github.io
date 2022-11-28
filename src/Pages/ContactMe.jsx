@@ -60,7 +60,7 @@ export const ContactMe = () => {
           </a>
         </div>
         <div
-        className={styles.phnDiv}
+          className={styles.phnDiv}
           style={{
             display: "flex",
             color: "white",

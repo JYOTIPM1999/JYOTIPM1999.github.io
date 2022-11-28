@@ -6,7 +6,7 @@ const GitHub = () => {
   return (
     <>
       <h1 className={styles.h1Tag}>Github Calender & Stats</h1>
-      <div>
+      <div id="STATS">
         <div w={["100%", "100%", "65%"]} className={styles.mainDiv}>
           <GitHubCalendar
             style={{ margin: "auto" }}

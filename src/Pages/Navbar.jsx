@@ -5,7 +5,8 @@ const menu = [
   { id: 1, title: "SKILLS", offset: -150 },
   { id: 2, title: "EXPERIENCE", offset: -150 },
   { id: 3, title: "PROJECTS", offset: -150 },
-  { id: 4, title: "CONTACT", offset: -150 },
+  { id: 4, title: "STATS", offset: -150 },
+  { id: 5, title: "CONTACT", offset: -150 },
 ];
 
 export const Navbar = () => {

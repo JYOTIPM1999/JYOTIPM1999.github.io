@@ -35,7 +35,7 @@
 }
 .ull {
   display: flex;
-  gap: 15rem;
+  gap: 10rem;
 }
 .image {
   height: 50px;
@@ -49,7 +49,7 @@
     font-size: 15px;
   }
   .ull {
-    gap: 20px;
+    gap: 30px;
   }
   .image {
     height: 40px;
