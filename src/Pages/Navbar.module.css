@@ -44,7 +44,7 @@
 }
 @media (min-width: 515px) and (max-width: 900px) {
   .mainDiv {
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .lii {
     font-size: 15px;
@@ -58,7 +58,7 @@
 }
 @media (max-width: 514px) {
   .mainDiv {
-    /* padding: 0px; */
+    padding: 0px 5px 0px 5px;
     justify-content: space-evenly;
   }
 
