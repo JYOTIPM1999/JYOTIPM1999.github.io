@@ -8,7 +8,8 @@ export const Experience = () => {
       <h1 className={styles.head}>Experience & Education</h1>
       <div className={styles.box}>
         <h2 className={styles.h2text}>
-          Full Stack Web Development <AiTwotoneBug style={{ color: "white" }} />
+          Full Stack Web Development{" "}
+          <AiTwotoneBug style={{ color: "#05386b" }} />
         </h2>
 
         <h4 className={styles.h4text}>

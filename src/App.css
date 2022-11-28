@@ -39,7 +39,7 @@
 .container {
   /* background-image: url(../public/Image/bi7.jpg); */
   background-size: contain;
-  background-color: black;
+  background-color: white;
 }
 .resume {
   position: fixed;
@@ -49,7 +49,7 @@
 .resumeBtn {
   padding: 10px;
   border-radius: 10px;
-  background-color: tomato;
+  background-color: #5cdb95;
   font-weight: bold;
   cursor: pointer;
   box-shadow: rgba(193, 193, 86, 0.926) 0px 5px 15px;
@@ -74,11 +74,11 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: tomato;
+  background: #5cdb95;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: tomato;
+  background: #5cdb95;
 }
