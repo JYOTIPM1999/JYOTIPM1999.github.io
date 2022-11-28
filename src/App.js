@@ -50,7 +50,7 @@ function App() {
       <br />
       <br />
       <ContactMe />
-      <p style={{ textAlign: "center", color: "white" }}>
+      <p style={{ textAlign: "center", color: "#05386b" }}>
         Designed by - Jyoti Prakash Mohapatra | jyotipm1999@gmail.com | All
         rights reserved, 2022
       </p>

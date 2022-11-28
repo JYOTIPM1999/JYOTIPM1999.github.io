@@ -18,6 +18,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border: 3px solid #05386b;
+  background-color: #05386b;
   padding: 10px;
   border-radius: 20px;
   gap: 15px;
@@ -59,14 +60,14 @@
   border: 2px solid #5cdb95;
 }
 .h2text {
-  color: #05386b;
+  color: #5cdb95;
   font-weight: bold;
   /* text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
 }
 .para {
   text-align: justify;
-  color: #05386b;
+  color: white;
   font-weight: 500;
 }
 .image {

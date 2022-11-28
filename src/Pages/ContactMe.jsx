@@ -28,18 +28,35 @@ export const ContactMe = () => {
   };
   return (
     <>
+      <h1 className={styles.head}>Get in touch</h1>
       <div id="CONTACT" className={styles.mainDiv}>
-        <h1 className={styles.head}>Get in touch</h1>
-        <form id="contact-form" onSubmit={sendEmail} className={styles.formtag}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" style={{ height: "80px" }}></textarea>
-          <br />
-          <input type="submit" value="Send" className={styles.inputSubmit} />
-        </form>
+        <div style={{ display: "flex", justifyContent: "space-around" }}>
+          <img
+            src="https://res.cloudinary.com/mytestlogo/image/upload/bitpodsite/images/comp-1.gif"
+            // style={{ height: "35%", width: "35%" }}
+            className={styles.imgTag}
+          />
+          <div>
+            <form
+              id="contact-form"
+              onSubmit={sendEmail}
+              className={styles.formtag}
+            >
+              <label className={styles.name}>Name</label>
+              <input type="text" name="user_name" />
+              <label className={styles.name}>Email</label>
+              <input type="email" name="user_email" />
+              <label className={styles.name}>Message</label>
+              <textarea name="message" style={{ height: "250px" }}></textarea>
+              <br />
+              <input
+                type="submit"
+                value="Send"
+                className={styles.inputSubmit}
+              />
+            </form>
+          </div>
+        </div>
 
         <div className={styles.atag}>
           <a href="https://github.com/JYOTIPM1999" target="_blank">

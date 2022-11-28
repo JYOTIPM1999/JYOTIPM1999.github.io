@@ -64,7 +64,7 @@ export const Projects = () => {
                 <div>
                   <h2 className={styles.h2text}>{el.title}</h2>
                   <p className={styles.para}>
-                    <span style={{ color: "#5cdb95", fontSize: "bold" }}>
+                    <span style={{ color: "#edf5e1", fontSize: "bold" }}>
                       Description:-{" "}
                     </span>
                     {el.desc}
