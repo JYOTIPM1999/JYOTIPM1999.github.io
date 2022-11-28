@@ -88,7 +88,7 @@ export const Projects = () => {
           })}
         </div>
         <div>
-          <img src="./Image/project.gif" className={styles.projectIcon} />
+          <img src="./Image/Project.png" className={styles.projectIcon} />
         </div>
       </div>
     </>
