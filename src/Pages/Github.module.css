@@ -3,8 +3,8 @@
   font-weight: bold;
   padding: 20px;
   border-radius: 10px;
-  background-color: #05386b;
-  color: white;
+  background-color: white;
+  color: #05386b;
   width: 80%;
 }
 .mainDiv:hover {
@@ -14,7 +14,7 @@
 .h1Tag {
   text-decoration-line: underline;
   text-decoration-style: double;
-  color: #05386b;
+  color: #5cdb95;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@
     font-size: 25px;
   }
 }
-@media (min-width: 385px) {
+@media (max-width: 514px) {
   .h1Tag {
     font-size: 20px;
   }

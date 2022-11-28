@@ -1,11 +1,13 @@
 .main {
-  display: flex;
-  width: 90%;
+  /* display: flex; */
+  /* width: 90%; */
+  padding: 5%;
   margin: auto;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 40px;
   text-align: center;
+  background-color: #5cdb95;
 }
 .projectIcon {
   height: 100%;
@@ -23,7 +25,7 @@
   transition: transform 2s;
 }
 .project:hover {
-  border: 3px solid #5cdb95;
+  border: 3px solid white;
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -84,6 +86,9 @@ a {
 }
 
 @media (min-width: 515px) and (max-width: 900px) {
+  .main {
+    padding: 10%;
+  }
   .projectIcon {
     display: none;
     /* height: 80%;
@@ -120,9 +125,9 @@ a {
 }
 @media (max-width: 514px) {
   .main {
-    width: 98%;
-    gap: 10px;
-    display: block;
+    /* width: 98%; */
+    /* gap: 20px; */
+    /* display: block; */
   }
   .head {
     font-size: 20px;

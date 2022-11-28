@@ -44,8 +44,11 @@ function App() {
       <br />
       <br />
       <GitHub />
-      <br />
       <GithubStats />
+      <br />
+      <br />
+      <br />
+      <br />
       <ContactMe />
       <p style={{ textAlign: "center", color: "white" }}>
         Designed by - Jyoti Prakash Mohapatra | jyotipm1999@gmail.com | All

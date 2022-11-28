@@ -87,9 +87,9 @@ export const Projects = () => {
             );
           })}
         </div>
-        <div>
+        {/* <div>
           <img src="./Image/project.gif" className={styles.projectIcon} />
-        </div>
+        </div> */}
       </div>
     </>
   );

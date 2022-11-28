@@ -1,3 +1,4 @@
+import { BsFolderSymlink } from "react-icons/bs";
 import styles from "./Resume.module.css";
 export const Resume = () => {
   return (
