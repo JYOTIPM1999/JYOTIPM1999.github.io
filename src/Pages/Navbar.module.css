@@ -44,13 +44,15 @@
 }
 @media (min-width: 515px) and (max-width: 900px) {
   .mainDiv {
+    /* padding: 0px 10px 0px 10px; */
+
     justify-content: space-evenly;
   }
   .lii {
     font-size: 15px;
   }
   .ull {
-    gap: 30px;
+    gap: 15px;
   }
   .image {
     height: 40px;
