@@ -54,7 +54,7 @@ const project = [
 
 export const Projects = () => {
   useEffect(() => {
-    AOS.init({ delay: 500 });
+    AOS.init({ delay: 200 });
   }, []);
   return (
     <>
