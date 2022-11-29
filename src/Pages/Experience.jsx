@@ -2,12 +2,18 @@ import styles from "./Experience.module.css";
 import { FiExternalLink } from "react-icons/fi";
 import { AiTwotoneBug } from "react-icons/ai";
 import { BsFillJournalBookmarkFill } from "react-icons/bs";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 export const Experience = () => {
+  useEffect(() => {
+    AOS.init({ offset: 500, delay: 500 });
+  }, []);
   return (
     <>
       <h1 className={styles.head}>Experience & Education</h1>
       <div id="EXPERIENCE" className={styles.mainDiv}>
-        <div className={styles.box}>
+        <div className={styles.box} data-aos="fade-down">
           <h2 className={styles.h2text}>
             Full Stack Web Development{" "}
             <AiTwotoneBug style={{ color: "#edf5e1" }} />
@@ -34,7 +40,7 @@ export const Experience = () => {
           </h5>
         </div>
 
-        <div className={styles.box}>
+        <div className={styles.box} data-aos="fade-up">
           <h2 className={styles.h2text}>
             Chartered Accountacy
             <BsFillJournalBookmarkFill style={{ color: "#edf5e1" }} />

@@ -1,6 +1,9 @@
 import styles from "./Project.module.css";
 import { AiFillGithub } from "react-icons/ai";
 import { MdLiveTv } from "react-icons/md";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 const project = [
   {
     image: "./Image/hb.png",
@@ -50,6 +53,9 @@ const project = [
 ];
 
 export const Projects = () => {
+  useEffect(() => {
+    AOS.init({ delay: 500 });
+  }, []);
   return (
     <>
       <h1 className={styles.head}>My Recent Works</h1>
@@ -57,7 +63,7 @@ export const Projects = () => {
         <div>
           {project.map((el, i) => {
             return (
-              <div key={i} className={styles.project}>
+              <div key={i} className={styles.project} data-aos="zoom-in-up">
                 <div>
                   <img src={el.image} alt={el.alt} className={styles.image} />
                 </div>
