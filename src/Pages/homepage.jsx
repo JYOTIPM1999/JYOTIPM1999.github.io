@@ -7,7 +7,7 @@ export const Homepage = () => {
       </div>
       <div>
         <h1 className={styles.name}>
-          <span style={{ color: "#05386b" }}>Hello,😀</span>
+          <span style={{ color: "#05386b" }}>Hello, 👋</span>
           <br />I am Jyoti Prakash Mohapatra
         </h1>
         <br />

@@ -1,6 +1,7 @@
 .mainDiv {
   margin: auto;
   text-align: center;
+  display: flex;
   background-color: #05386b;
   padding: 2%;
 }
@@ -18,11 +19,7 @@
   transition: transform 2s;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.box:hover {
-  border: 3px solid #5cdb95;
-  transform: scale(1.05);
-  cursor: pointer;
-}
+
 /* .skillshead {
   text-decoration-line: underline;
   text-decoration-style: double;
@@ -60,6 +57,9 @@
   color: #edf5e1;
 }
 @media (min-width: 515px) and (max-width: 900px) {
+  .mainDiv {
+    display: block;
+  }
   .head {
     font-size: 25px;
   }
@@ -68,8 +68,16 @@
     line-height: 18px;
     transition: transform 1.5s;
   }
+  .box:hover {
+    border: 3px solid #5cdb95;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 }
 @media (max-width: 514px) {
+  .mainDiv {
+    display: block;
+  }
   .head {
     font-size: 20px;
   }

@@ -17,10 +17,12 @@
 
 .lii {
   list-style: none;
-  color: #09071c;
+  color: #05386b;
   font-weight: bold;
-  text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
-    1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+  /* text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; */
+  /* text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
+    1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white; */
 }
 /* .lii:active {
   cursor: pointer;
@@ -30,9 +32,9 @@
 } */
 .lii:hover {
   cursor: pointer;
-  color: white;
-  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
-    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  /* color: white; */
+  /* text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; */
 }
 .ull {
   display: flex;
