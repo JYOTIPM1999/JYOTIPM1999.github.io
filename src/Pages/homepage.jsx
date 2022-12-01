@@ -19,7 +19,7 @@ export const Homepage = () => {
           learnt, whilst being exposed to the power and potential of the
           ever-evolving technologies around us. I'm always looking for better,
           and more importantly, ethical and accessible ways to solve the common
-          problems we are faced with day-to-day life.
+          problems we are faced with day_to_day life.
           {/* <img src="./Image/about.gif" alt="img" /> */}
         </p>
       </div>
