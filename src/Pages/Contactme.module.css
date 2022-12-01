@@ -127,8 +127,7 @@
     font-size: 10px;
   }
   .imgTag {
-    height: 160px;
-    width: 150px;
+    display: none;
   }
   .github,
   .linkedin,
