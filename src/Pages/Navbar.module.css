@@ -6,68 +6,68 @@
   position: sticky;
   z-index: 1;
   top: 0px;
+  gap: 10%;
   /* height: auto; */
   box-shadow: 0px 8px 16px 0px rgba(148, 18, 18, 0.2);
   align-items: center;
-  justify-content: space-around;
-  padding: 0px 25px 0px 25px;
+  justify-content: space-between;
+  /* padding: 0px 2rem 0px 2rem; */
   border-bottom: 1px solid #05386b;
   background-color: #5cdb95;
+}
+.linkTag {
+  width: 20%;
+  border: 1px solid red;
+}
+.image {
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.ull {
+  display: flex;
+  /* gap: 10rem; */
+  width: 80%;
+  border: 1px solid blue;
+  justify-content: space-around;
 }
 
 .lii {
   list-style: none;
   color: #05386b;
   font-weight: bold;
-  /* text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
-    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; */
-  /* text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
-    1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white; */
 }
-/* .lii:active {
+.lii:active {
   cursor: pointer;
-  color: red;
-  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
-    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-} */
+  color: white;
+}
 .lii:hover {
   cursor: pointer;
   /* color: white; */
   /* text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
     1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; */
 }
-.ull {
-  display: flex;
-  gap: 10rem;
-}
-.image {
-  height: 50px;
-  border-radius: 50%;
-}
+
 @media (min-width: 515px) and (max-width: 900px) {
   .mainDiv {
-    /* padding: 0px 10px 0px 10px; */
-
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 0;
   }
   .lii {
     font-size: 15px;
   }
-  .ull {
+  /* .ull {
     gap: 15px;
-  }
+    width: 70%;
+  } */
   .image {
     height: 40px;
   }
 }
 @media (max-width: 514px) {
   .mainDiv {
-    /* padding: 0px 5px 0px 5px;
-    justify-content: space-evenly; */
-    /* align-items: center; */
+    /* justify-content: space-evenly; */
     display: flex;
-    padding: 0px 15px 0px 15px;
-
     flex-direction: column;
   }
 
@@ -75,11 +75,17 @@
     font-size: 10px;
   }
   .ull {
-    gap: 5px;
+    gap: 0px;
+    width: 80%;
+    justify-content: space-between;
+    border: 2px solid red;
+  }
+  .linkTag {
+    width: 100%;
   }
   .image {
     height: 50px;
-    margin-top: 10px;
-    margin-bottom: -10px;
+    margin: auto;
+    display: block;
   }
 }

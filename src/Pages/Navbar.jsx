@@ -12,9 +12,15 @@ const menu = [
 export const Navbar = () => {
   return (
     <div className={styles.mainDiv}>
-      <Link to={"Homepage"} smooth={true} offset={-105} duration={1500}>
-        <img src="./Image/logos.gif" alt="logos.gif" className={styles.image} />
-      </Link>
+      <div className={styles.linkTag}>
+        <Link to={"Homepage"} smooth={true} offset={-105} duration={1500}>
+          <img
+            src="./Image/logos.gif"
+            alt="logos.gif"
+            className={styles.image}
+          />
+        </Link>
+      </div>
       <ul className={styles.ull}>
         {menu.map((el) => (
           <li key={el.id} className={styles.lii}>
