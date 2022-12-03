@@ -54,8 +54,9 @@ const project = [
 
 export const Projects = () => {
   useEffect(() => {
-    AOS.init({ delay: 200 });
+    AOS.init({ delay: 100 });
   }, []);
+
   return (
     <>
       <h1 className={styles.head}>My Recent Works</h1>
