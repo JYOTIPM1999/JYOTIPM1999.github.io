@@ -73,8 +73,8 @@
   }
   .ull {
     gap: 0px;
-    width: 80%;
-    justify-content: space-between;
+    width: 90%;
+    /* justify-content: space-between; */
   }
   .linkTag {
     width: 80%;
