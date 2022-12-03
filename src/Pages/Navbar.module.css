@@ -69,12 +69,13 @@
   }
 
   .lii {
-    font-size: 10px;
+    font-size: 13px;
+    text-decoration-line: underline;
   }
   .ull {
     gap: 0px;
     width: 90%;
-    /* justify-content: space-between; */
+    justify-content: space-between;
   }
   .linkTag {
     width: 80%;
