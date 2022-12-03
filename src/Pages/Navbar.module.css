@@ -7,7 +7,6 @@
   z-index: 1;
   top: 0px;
   gap: 10%;
-  /* height: auto; */
   box-shadow: 0px 8px 16px 0px rgba(148, 18, 18, 0.2);
   align-items: center;
   justify-content: space-between;
@@ -17,7 +16,6 @@
 }
 .linkTag {
   width: 20%;
-  border: 1px solid red;
 }
 .image {
   height: 50px;
@@ -26,9 +24,7 @@
 }
 .ull {
   display: flex;
-  /* gap: 10rem; */
   width: 80%;
-  border: 1px solid blue;
   justify-content: space-around;
 }
 
@@ -69,6 +65,7 @@
     /* justify-content: space-evenly; */
     display: flex;
     flex-direction: column;
+    gap: 0;
   }
 
   .lii {
@@ -81,7 +78,8 @@
     border: 2px solid red;
   }
   .linkTag {
-    width: 100%;
+    width: 80%;
+    padding-top: 10px;
   }
   .image {
     height: 50px;
