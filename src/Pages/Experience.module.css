@@ -2,12 +2,14 @@
   margin: auto;
   text-align: center;
   display: flex;
-  background-color: #05386b;
+  /* background-color: #05386b; */
   padding: 2%;
 }
 .box {
-  border: 3px solid white;
-  background-color: #5cdb95;
+  /* border: 3px solid white; */
+  /* background-color: #5cdb95; */
+  background-image: url("https://img.freepik.com/free-vector/gradient-round-box-mockup-illustration_23-2149520809.jpg?t=st=1670173999~exp=1670174599~hmac=d53c1b02ece44090890c68238e6ac34a76cded8ed727da5014a8888a6d931a54");
+  background-attachment: fixed;
   width: 30%;
   border-radius: 20px;
   height: auto;
@@ -31,12 +33,12 @@
 } */
 .ul {
   line-height: 20px;
-  color: #edf5e1;
+  color: #05386b;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
-  color: #edf5e1;
+  color: #05386b;
   font-style: italic;
 }
 
@@ -54,7 +56,8 @@
 }
 .ptext {
   margin-left: 30px;
-  color: #edf5e1;
+  font-weight: 600;
+  color: #05386b;
 }
 @media (min-width: 515px) and (max-width: 900px) {
   .mainDiv {

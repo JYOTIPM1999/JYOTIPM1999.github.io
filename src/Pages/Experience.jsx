@@ -13,17 +13,17 @@ export const Experience = () => {
     <>
       <h1 className={styles.head}>Experience & Education</h1>
       <div id="EXPERIENCE" className={styles.mainDiv}>
-        <div className={styles.box} data-aos="fade-down">
+        <div className={styles.box}>
           <h2 className={styles.h2text}>
             Full Stack Web Development{" "}
-            <AiTwotoneBug style={{ color: "#edf5e1" }} />
+            <AiTwotoneBug style={{ color: "#05386b" }} />
           </h2>
 
           <h4 className={styles.h4text}>
             <a
               href="https://www.masaischool.com/"
               target="_blank"
-              style={{ textDecoration: "none", color: "#edf5e1" }}
+              style={{ textDecoration: "none", color: "#05386b" }}
             >
               Masai School, Bangalore <FiExternalLink />, (02.2022 - 11.2022)
             </a>
@@ -40,10 +40,10 @@ export const Experience = () => {
           </h5>
         </div>
 
-        <div className={styles.box} data-aos="fade-up">
+        <div className={styles.box}>
           <h2 className={styles.h2text}>
             Chartered Accountacy
-            <BsFillJournalBookmarkFill style={{ color: "#edf5e1" }} />
+            <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
           </h2>
           <h4 className={styles.h4text}>
             <a
@@ -51,7 +51,7 @@ export const Experience = () => {
               target="_blank"
               style={{
                 textDecoration: "none",
-                color: "#edf5e1",
+                color: "#05386b",
               }}
             >
               The Institute of Chartered Accountants of India <FiExternalLink />
@@ -75,13 +75,13 @@ export const Experience = () => {
 
         <div className={styles.box}>
           <h2 className={styles.h2text}>
-            B.Com <BsFillJournalBookmarkFill style={{ color: "#edf5e1" }} />
+            B.Com <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
           </h2>
           <h4 className={styles.h4text}>
             <a
               href="https://utkaluniversity.ac.in/"
               target="_blank"
-              style={{ textDecoration: "none", color: "#edf5e1" }}
+              style={{ textDecoration: "none", color: "#05386b" }}
             >
               Utkal University, Bhubaneswar <FiExternalLink />, (08.2016 -
               03.2019)
