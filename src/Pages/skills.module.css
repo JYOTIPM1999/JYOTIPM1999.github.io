@@ -4,7 +4,7 @@
   padding: 2%;
   display: flex;
   gap: 20px;
-  background-color: #5cdb95;
+  /* background-color: #5cdb95; */
 }
 .gif img {
   width: 90%;

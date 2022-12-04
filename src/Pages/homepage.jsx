@@ -2,7 +2,14 @@ import styles from "./Homepage.module.css";
 export const Homepage = () => {
   return (
     <div id="Homepage" className={styles.main}>
-      <div style={{ border: "1px solid red", width: "50%" }}>
+      <div
+        style={{
+          borderRight: "10px solid #05386b",
+          borderLeft: "10px solid #05386b",
+          borderRadius: "20%",
+          width: "50%",
+        }}
+      >
         <div className={styles.imageDiv}>
           <img src="./Image/self.png" className={styles.image} alt="img" />
         </div>
@@ -25,9 +32,25 @@ export const Homepage = () => {
           </p>
         </div>
       </div>
-      <div style={{ border: "2px solid blue", width: "50%" }}>
+      <div
+        style={{
+          // border: "2px solid blue",
+          borderLeft: "10px solid #05386b",
+          borderRight: "10px solid #05386b",
+          borderRadius: "20%",
+          width: "50%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          // textAlign: "center",
+          // alignItems: "center",
+        }}
+      >
         <img
-          style={{ width: "70%", display: "block",mar }}
+          style={{
+            width: "70%",
+            borderRadius: "20%",
+          }}
           src="https://img.freepik.com/free-vector/website-creator-concept-illustration_114360-3315.jpg?w=740&t=st=1670171346~exp=1670171946~hmac=e59ba681ef6082f25b1964a3a3e98dbe83197663bbe6f6be491b36a10287c2fc"
         />
       </div>

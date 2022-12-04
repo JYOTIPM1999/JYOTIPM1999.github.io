@@ -1,7 +1,7 @@
 .parent {
   display: flex;
   flex-direction: column;
-  background-color: #05386b;
+  /* background-color: #05386b; */
 }
 
 .first {
