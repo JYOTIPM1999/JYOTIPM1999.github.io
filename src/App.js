@@ -14,7 +14,7 @@ function App() {
     <div className="container">
       <Navbar />
       {/* <br /> */}
-      {/* <br /> */}
+      <br />
       <div className="resume">
         <a href="./Resume.pdf" download>
           <button className="resumeBtn">

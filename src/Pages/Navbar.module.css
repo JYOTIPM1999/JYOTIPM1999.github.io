@@ -12,7 +12,8 @@
   justify-content: space-between;
   /* padding: 0px 2rem 0px 2rem; */
   border-bottom: 1px solid #05386b;
-  background-color: #5cdb95;
+
+  background-color: whitesmoke;
 }
 .linkTag {
   width: 20%;

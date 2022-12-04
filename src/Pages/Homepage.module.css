@@ -1,7 +1,9 @@
 /* body {
 } */
 .main {
-  background-image: url("https://img.freepik.com/free-vector/detailed-abstract-white-background_79603-1735.jpg");
+  /* background-image: url("https://img.freepik.com/free-vector/topographic-contour-lines-map-seamless-pattern_1284-52862.jpg"); */
+  background-attachment: fixed;
+  background-size: contain;
   display: flex;
   justify-content: space-around;
   /* width: 50%; */
@@ -9,16 +11,14 @@
   padding: 20px;
 }
 .imageDiv {
-  width: 40%;
-  height: 40%;
+  width: 70%;
+  height: 70%;
   margin: auto;
   border-radius: 50%;
   /* position: relative; */
   border: 2px solid #05386b;
 }
-/* .imageDiv:hover {
-  border: 10px solid #05386b;
-} */
+
 .image {
   height: 100%;
   width: 100%;
@@ -44,7 +44,7 @@
   .imageDiv {
     width: 25%;
     position: relative;
-    left: 35%;
+    /* left: 35%; */
     height: 200px;
   }
   .name {
@@ -63,7 +63,7 @@
   .imageDiv {
     width: 35%;
     position: relative;
-    left: 35%;
+    /* left: 35%; */
     height: 150px;
     border: 3px solid #5cdb95;
   }
