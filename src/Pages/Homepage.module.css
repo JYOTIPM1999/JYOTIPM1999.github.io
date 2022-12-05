@@ -63,21 +63,18 @@
   .main {
     display: block;
     /* background-image: url(""); */
-    height: 450px;
+    height: 370px;
   }
   .imageDiv {
     width: 35%;
-    position: relative;
-    /* left: 35%; */
     height: 150px;
-    border: 3px solid #5cdb95;
   }
   .name {
     font-size: 15px;
   }
   .para {
-    width: 70%;
-    font-size: 13px;
+    width: 90%;
+    font-size: 12px;
     color: black;
   }
 }
