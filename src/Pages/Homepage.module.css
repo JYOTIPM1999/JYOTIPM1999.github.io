@@ -1,12 +1,12 @@
 /* body {
 } */
 .main {
-  /* background-image: url("https://img.freepik.com/free-vector/topographic-contour-lines-map-seamless-pattern_1284-52862.jpg"); */
-  background-attachment: fixed;
-  background-size: contain;
+  background-image: url("https://img.freepik.com/premium-vector/purple-fluid-background-free-vector_654626-11.jpg");
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
   display: flex;
   justify-content: space-around;
-  /* width: 50%; */
+  height: 350px;
   gap: 10px;
   padding: 20px;
 }
@@ -42,6 +42,7 @@
 @media (min-width: 515px) and (max-width: 900px) {
   .main {
     display: block;
+    height: 400px;
   }
   .imageDiv {
     width: 25%;
@@ -61,6 +62,8 @@
 @media (max-width: 514px) {
   .main {
     display: block;
+    /* background-image: url(""); */
+    height: 450px;
   }
   .imageDiv {
     width: 35%;
@@ -75,6 +78,6 @@
   .para {
     width: 70%;
     font-size: 13px;
-    color: #5cdb95;
+    color: black;
   }
 }
