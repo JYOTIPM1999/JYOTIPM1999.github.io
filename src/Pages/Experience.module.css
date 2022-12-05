@@ -8,8 +8,9 @@
 .box {
   /* border: 3px solid white; */
   /* background-color: #5cdb95; */
-  background-image: url("https://img.freepik.com/free-vector/gradient-round-box-mockup-illustration_23-2149520809.jpg?t=st=1670173999~exp=1670174599~hmac=d53c1b02ece44090890c68238e6ac34a76cded8ed727da5014a8888a6d931a54");
+  background-image: url("https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1670256922~exp=1670257522~hmac=9e582a18331bf55d72b17bf1624a15743feb7b5db22a4c2c799886b485db3465");
   background-attachment: fixed;
+  background-size: 30% 70%;
   width: 30%;
   border-radius: 20px;
   height: auto;
@@ -69,6 +70,7 @@
   .box {
     width: 70%;
     line-height: 18px;
+    background-size: 80% 70%;
     transition: transform 1.5s;
   }
   .box:hover {
@@ -87,6 +89,7 @@
   .box {
     width: 70%;
     line-height: 18px;
+    background-size: 100% 40%;
     transition: transform 1s;
   }
   .h2text {
