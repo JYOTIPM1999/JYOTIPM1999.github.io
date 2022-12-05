@@ -20,6 +20,7 @@
   font-weight: bold;
   background-color: white;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .inputSubmit {
   background-color: #5cdb95;

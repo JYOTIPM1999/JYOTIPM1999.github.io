@@ -16,9 +16,14 @@
 }
 .project {
   display: grid;
+  margin: auto;
   grid-template-columns: repeat(2, 1fr);
-  border: 3px solid #05386b;
-  background-color: #05386b;
+  /* border: 3px solid #05386b; */
+  /* background-color: #05386b; */
+  /* background-image: url("https://img.freepik.com/free-vector/artificial-intelligence-robots-cyborg-with-infinity-symbol_107791-4668.jpg?w=1380&t=st=1670247326~exp=1670247926~hmac=aaa29b51bd019aebc1b87b1393926c2bf385d297d3337a203ce78c5327c6a35a"); */
+  background-attachment: fixed;
+  background-size: cover;
+  width: 80%;
   padding: 10px;
   border-radius: 20px;
   gap: 15px;
@@ -26,7 +31,7 @@
   /* transition: transform 2s; */
 }
 .project:hover {
-  border: 3px solid white;
+  /* border: 3px solid white; */
   /* transform: scale(1.05); */
   cursor: pointer;
 }

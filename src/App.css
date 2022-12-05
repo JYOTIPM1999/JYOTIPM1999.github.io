@@ -40,22 +40,28 @@
   /* background-image: url(../public/Image/bi7.jpg); */
   background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4420.jpg")
       right top 1%,
-    /* url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      left top 1%, */
-      url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      right 15% top 10%,
+    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
+      right -10% top 10%,
+    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4423.jpg")
+      left 10% top 20%,
     url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4420.jpg")
-      left 40% top 25%,
-    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4420.jpg")
+      right 10% top 21%,
+    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
+      left 50% top 30%,
+    url("https://img.freepik.com/premium-vector/farm-robots-harvesting-with-wireless-control_126283-2927.jpg?w=900")
+      left 10% bottom 34%,
+    url("https://img.freepik.com/premium-vector/genetic-dna-science-tiny-scientists-investigating-diagnosis-testing-dna-with-microscope_501813-790.jpg")
+      right 10% bottom 34%,
+    url("https://img.freepik.com/free-vector/manager-planning-event-man-marking-date-calendar-page-flat-illustration_74855-10924.jpg")
+      left 1% bottom 23%,
+    url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
+      right 5% bottom 14%,
+    url("https://img.freepik.com/free-vector/female-patient-doctor-office_74855-6460.jpg?t=st=1670230556~exp=1670231156~hmac=1b14bdecb3a5c4bb064b6f9963beb3fdbebe1c2d693d76da90f757d98eb2cb4c")
       left bottom,
     url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      right bottom,
-    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
       right bottom;
-
-  /* url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      left top 5%; */
-  background-size: 280px, 600px, 650px, 500px, 650px, 500px, 650px, 500px;
+  background-size: 280px, 650px, 300px, 300px, 320px, 350px, 350px, 500px, 400px,
+    400px 280px;
   background-repeat: no-repeat;
 }
 .resume {
