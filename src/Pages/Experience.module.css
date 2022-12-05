@@ -2,12 +2,9 @@
   margin: auto;
   text-align: center;
   display: flex;
-  /* background-color: #05386b; */
   padding: 2%;
 }
 .box {
-  /* border: 3px solid white; */
-  /* background-color: #5cdb95; */
   background-image: url("https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1670256922~exp=1670257522~hmac=9e582a18331bf55d72b17bf1624a15743feb7b5db22a4c2c799886b485db3465");
   background-attachment: fixed;
   background-size: 30% 70%;
@@ -19,19 +16,11 @@
   text-align: justify;
   padding: 15px;
   line-height: 10px;
-  transition: transform 2s;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-/* .skillshead {
-  text-decoration-line: underline;
-  text-decoration-style: double;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-} */
+.box:hover {
+  cursor: pointer;
+}
 .ul {
   line-height: 20px;
   color: #05386b;
@@ -71,12 +60,6 @@
     width: 70%;
     line-height: 18px;
     background-size: 80% 70%;
-    transition: transform 1.5s;
-  }
-  .box:hover {
-    border: 3px solid #5cdb95;
-    transform: scale(1.05);
-    cursor: pointer;
   }
 }
 @media (max-width: 514px) {
@@ -90,7 +73,6 @@
     width: 70%;
     line-height: 18px;
     background-size: 100% 40%;
-    transition: transform 1s;
   }
   .h2text {
     font-size: 15px;
