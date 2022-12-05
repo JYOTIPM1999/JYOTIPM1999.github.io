@@ -74,7 +74,7 @@
   .ull {
     gap: 0px;
     width: 90%;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .linkTag {
     width: 80%;
