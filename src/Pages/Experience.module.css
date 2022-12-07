@@ -23,23 +23,31 @@
 }
 .ul {
   line-height: 20px;
-  color: #05386b;
+  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
+  color: white;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
-  color: #05386b;
+  color: white;
+  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
   font-style: italic;
 }
 
 .head {
-  color: #D2691E;
+  color: white;
+  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
 }
 .h2text {
-  color: #05386b;
+  color: white;
+  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
   font-weight: bold;
   /* text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
@@ -47,7 +55,15 @@
 .ptext {
   margin-left: 30px;
   font-weight: 600;
-  color: #05386b;
+  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
+  color: white;
+}
+.college {
+  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
+  color: white;
+  text-decoration: none;
 }
 @media (min-width: 515px) and (max-width: 900px) {
   .mainDiv {

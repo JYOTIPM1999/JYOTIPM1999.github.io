@@ -16,14 +16,14 @@ export const Experience = () => {
         <div className={styles.box}>
           <h2 className={styles.h2text}>
             Full Stack Web Development{" "}
-            <AiTwotoneBug style={{ color: "#05386b" }} />
+            <AiTwotoneBug style={{ color: "#d2691e" }} />
           </h2>
 
           <h4 className={styles.h4text}>
             <a
               href="https://www.masaischool.com/"
               target="_blank"
-              style={{ textDecoration: "none", color: "#05386b" }}
+              className={styles.college}
             >
               Masai School, Bangalore <FiExternalLink />, (02.2022 - 11.2022)
             </a>
@@ -43,16 +43,13 @@ export const Experience = () => {
         <div className={styles.box}>
           <h2 className={styles.h2text}>
             Chartered Accountacy
-            <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
+            <BsFillJournalBookmarkFill style={{ color: "#d2691e" }} />
           </h2>
           <h4 className={styles.h4text}>
             <a
               href="https://www.icai.org/"
               target="_blank"
-              style={{
-                textDecoration: "none",
-                color: "#05386b",
-              }}
+              className={styles.college}
             >
               The Institute of Chartered Accountants of India <FiExternalLink />
             </a>
@@ -75,13 +72,13 @@ export const Experience = () => {
 
         <div className={styles.box}>
           <h2 className={styles.h2text}>
-            B.Com <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
+            B.Com <BsFillJournalBookmarkFill style={{ color: "#d2691e" }} />
           </h2>
           <h4 className={styles.h4text}>
             <a
               href="https://utkaluniversity.ac.in/"
               target="_blank"
-              style={{ textDecoration: "none", color: "#05386b" }}
+              className={styles.college}
             >
               Utkal University, Bhubaneswar <FiExternalLink />, (08.2016 -
               03.2019)
