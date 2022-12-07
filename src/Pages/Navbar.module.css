@@ -61,9 +61,8 @@
 }
 @media (max-width: 514px) {
   .mainDiv {
-    /* justify-content: space-evenly; */
-    display: flex;
-    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: space-around;
     gap: 0;
   }
 
@@ -72,16 +71,18 @@
     text-decoration-line: underline;
   }
   .ull {
-    gap: 0px;
-    width: 90%;
-    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    /* border: 1px solid black; */
+
+    /* justify-content: space-around; */
   }
   .linkTag {
-    width: 80%;
-    padding-top: 10px;
+    width: 20%;
+    /* border: 1px solid black; */
   }
   .image {
-    height: 50px;
+    height: 40px;
     margin: auto;
     display: block;
   }
