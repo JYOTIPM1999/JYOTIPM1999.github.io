@@ -9,13 +9,13 @@
   width: 80%;
 }
 .mainDiv:hover {
-  /* background-color: #5cdb95; */
+  /* background-color: #D2691E; */
   color: #05386b;
 }
 .h1Tag {
   text-decoration-line: underline;
   text-decoration-style: double;
-  color: #5cdb95;
+  color: #D2691E;
   text-align: center;
 }
 

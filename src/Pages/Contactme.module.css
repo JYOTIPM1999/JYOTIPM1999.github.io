@@ -5,7 +5,7 @@
   text-align: center;
 }
 .mainDiv {
-  /* background-color: #5cdb95; */
+  /* background-color: #D2691E; */
   /* display: flex;
   justify-content: space-around; */
   padding: 5%;
@@ -23,16 +23,18 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .inputSubmit {
-  background-color: #5cdb95;
+  background-color: white;
   padding: 5px;
+  color: #d2691e;
+  border: 2px solid #d2691e;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
 }
 .inputSubmit:hover {
-  background-color: black;
-  color: #5cdb95;
-  border: 2px solid #5cdb95;
+  background-color: #d2691e;
+  color: white;
+  /* border: 2px solid black; */
 }
 
 .atag {
@@ -47,7 +49,7 @@
 .linkedin:hover,
 .youtube:hover {
   border: 3px solid #05386b;
-  background-color: #5cdb95;
+  background-color: #d2691e;
   color: white;
 }
 .github,

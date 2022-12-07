@@ -4,7 +4,7 @@
   padding: 2%;
   display: flex;
   gap: 20px;
-  /* background-color: #5cdb95; */
+  /* background-color: #D2691E; */
 }
 .gif img {
   width: 90%;
@@ -29,7 +29,7 @@
   width: 120px;
 }
 .main > div > div:hover {
-  border: 3px solid #5cdb95;
+  border: 3px solid #d2691e;
   /* transform: scale(1.2); */
   cursor: pointer;
 }
