@@ -135,7 +135,8 @@
   }
   .github,
   .linkedin,
-  .youtube {
+  .youtube,
+  p {
     font-size: 10px;
   }
 }
