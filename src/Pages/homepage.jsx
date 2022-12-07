@@ -21,7 +21,7 @@ export const Homepage = () => {
         </h1>
         <br />
         <p className={styles.para}>
-          <span style={{ color: "#5cdb95" }}>Hello strangers!</span> 👋, my name
+          <span style={{ color: "#FF1493" }}>Hello strangers!</span> 👋, my name
           is Jyoti Prakash Mohapatra and I am a MERN Stack Developer, passionate
           about building digital products that improve everyday experience for
           people. I love to work on exciting projects that test what I've
