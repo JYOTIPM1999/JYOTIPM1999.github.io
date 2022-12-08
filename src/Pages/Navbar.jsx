@@ -7,7 +7,7 @@ const menu = [
   { id: 3, title: "PROJECTS", offset: -150 },
   { id: 4, title: "STATS", offset: -150 },
   { id: 5, title: "CONTACT", offset: -150 },
-  { id: 6, title: "RESUME", offset: -150 },
+  // { id: 6, title: "RESUME", offset: -150 },
 ];
 
 export const Navbar = () => {
@@ -31,14 +31,13 @@ export const Navbar = () => {
               offset={el.offset}
               duration={1500}
             >
-              ({el.title}==="RESUME")?
-              <Resume />:{el.title}
+              {el.title}
             </Link>
           </li>
         ))}
-        {/* <li className={styles.lii}>
+        <li className={styles.lii} style={{ color: "#d2691e" }}>
           <Resume />
-        </li> */}
+        </li>
       </ul>
     </div>
   );
