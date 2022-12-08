@@ -35,7 +35,7 @@ export const Navbar = () => {
             </Link>
           </li>
         ))}
-        <li>
+        <li className={styles.lii}>
           <Resume />
         </li>
       </ul>

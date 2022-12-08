@@ -6,7 +6,7 @@ export const Resume = () => {
       <a
         href="https://drive.google.com/file/d/1QqhopBMPObPFsZF61IuLP4qtEBQ0RGTU/view?usp=sharing"
         target="_blank"
-        // className={styles.atag}
+        className={styles.atag}
       >
         RESUME
       </a>
