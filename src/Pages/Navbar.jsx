@@ -31,7 +31,8 @@ export const Navbar = () => {
               offset={el.offset}
               duration={1500}
             >
-              {el.title}
+              ({el.title}==="RESUME")?
+              <Resume />:{el.title}
             </Link>
           </li>
         ))}
