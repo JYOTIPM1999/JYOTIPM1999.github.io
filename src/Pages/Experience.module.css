@@ -39,9 +39,7 @@
 }
 
 .head {
-  color: white;
-  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
+  color: #d2691e;
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
