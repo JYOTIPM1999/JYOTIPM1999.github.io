@@ -46,11 +46,9 @@
 }
 .h2text {
   color: white;
+  font-weight: bold;
   text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
     1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
-  font-weight: bold;
-  /* text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
-    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
 }
 .ptext {
   margin-left: 30px;
