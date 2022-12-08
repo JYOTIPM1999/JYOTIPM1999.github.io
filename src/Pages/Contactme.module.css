@@ -80,6 +80,9 @@
   height: 35%;
   width: 35%;
 }
+.name {
+  color: #d2691e;
+}
 
 @media (min-width: 515px) and (max-width: 900px) {
   .atag {

@@ -72,7 +72,7 @@
 .resumeBtn {
   padding: 10px;
   border-radius: 10px;
-  background-color: #D2691E;
+  background-color: #d2691e;
   font-weight: bold;
   cursor: pointer;
   box-shadow: #05386b 0px 5px 15px;
@@ -80,7 +80,7 @@
 }
 .resumeBtn:hover {
   background-color: #05386b;
-  color: #D2691E;
+  color: #d2691e;
   box-shadow: rgba(244, 244, 229, 0.926) 0px 5px 15px;
   border: 1px solid black;
 }
@@ -97,13 +97,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #D2691E;
+  background: #d2691e;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #D2691E;
+  background: #d2691e;
 }
 
 @media (min-width: 515px) and (max-width: 900px) {
