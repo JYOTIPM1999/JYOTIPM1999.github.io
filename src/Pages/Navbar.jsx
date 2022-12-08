@@ -35,7 +35,7 @@ export const Navbar = () => {
             </Link>
           </li>
         ))}
-        <li className={styles.lii} style={{ color: "#d2691e" }}>
+        <li>
           <Resume />
         </li>
       </ul>
