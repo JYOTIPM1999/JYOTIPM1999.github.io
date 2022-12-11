@@ -55,7 +55,7 @@
 .github,
 .linkedin {
   color: white;
-  border: 3px solid black;
+  border: 3px solid #24292f;
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(11, 28, 138, 0.771) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(15, 24, 156, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */

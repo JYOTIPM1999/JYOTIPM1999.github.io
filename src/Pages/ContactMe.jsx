@@ -83,6 +83,7 @@ export const ContactMe = () => {
             color: "#05386b",
             justifyContent: "center",
             gap: "20px",
+            fontFamily: "",
           }}
         >
           <p>Contact Number- +91 93378 41077</p>
