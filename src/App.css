@@ -46,7 +46,7 @@
       right 10% top 23%,
     url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
       left 5% top 32%,
-    url("./Image/propng.png") right 1% top 32%,
+    url("../public/Image/propng.png") right 1% top 32%,
     url("https://img.freepik.com/premium-vector/farm-robots-harvesting-with-wireless-control_126283-2927.jpg?w=900")
       left 10% bottom 33%,
     url("https://img.freepik.com/premium-vector/genetic-dna-science-tiny-scientists-investigating-diagnosis-testing-dna-with-microscope_501813-790.jpg")
@@ -112,7 +112,7 @@
   .container {
     background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
         right -10% top 15%,
-      url("./Image/propng.png") right 1% top 43%,
+      url("../public/Image/propng.png") right 1% top 43%,
       url("https://img.freepik.com/free-vector/manager-planning-event-man-marking-date-calendar-page-flat-illustration_74855-10924.jpg")
         left 50% bottom 25%,
       url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
@@ -127,7 +127,7 @@
   .container {
     background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
         left 50% top 15%,
-      url("./Image/propng.png") right 50% top 52%,
+      url("../public/Image/propng.png") right 50% top 51.5%,
       url("https://img.freepik.com/free-vector/manager-planning-event-man-marking-date-calendar-page-flat-illustration_74855-10924.jpg")
         left 50% bottom 21.5%,
       url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
