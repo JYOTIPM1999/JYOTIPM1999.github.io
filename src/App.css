@@ -63,6 +63,7 @@
   background-size: 650px, 300px, 300px, 300px, 450px, 350px, 350px, 500px, 400px,
     400px, 280px;
   background-repeat: no-repeat;
+  font-family: "Lora", serif;
 }
 .resume {
   position: fixed;
