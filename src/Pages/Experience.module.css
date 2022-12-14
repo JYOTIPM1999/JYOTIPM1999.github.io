@@ -32,16 +32,16 @@
 }
 .ul {
   line-height: 20px;
-  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
-  color: white;
+  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
+  color: #05386b;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
-  color: white;
-  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
+  color: #05386b;
+  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
   font-style: italic;
 }
 
@@ -52,10 +52,10 @@
   text-decoration-style: double;
 }
 .h2text {
-  color: white;
+  color: #05386b;
   font-weight: bold;
-  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
+  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
   /* background-color: linear-gradient(
     90deg,
     #ff0000,
@@ -81,14 +81,14 @@
 .ptext {
   margin-left: 30px;
   font-weight: 600;
-  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
-  color: white;
+  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
+  color: #05386b;
 }
 .college {
-  text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e;
-  color: white;
+  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
+    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
+  color: #05386b;
   text-decoration: none;
 }
 @media (min-width: 515px) and (max-width: 900px) {

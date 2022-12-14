@@ -16,7 +16,7 @@ export const Experience = () => {
         <div className={styles.box}>
           <h2 className={styles.h2text}>
             Full Stack Web Development{" "}
-            <AiTwotoneBug style={{ color: "#d2691e" }} />
+            <AiTwotoneBug style={{ color: "#05386b" }} />
           </h2>
 
           <h4 className={styles.h4text}>
@@ -43,7 +43,7 @@ export const Experience = () => {
         <div className={styles.box}>
           <h2 className={styles.h2text}>
             Chartered Accountacy
-            <BsFillJournalBookmarkFill style={{ color: "#d2691e" }} />
+            <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
           </h2>
           <h4 className={styles.h4text}>
             <a
@@ -72,7 +72,7 @@ export const Experience = () => {
 
         <div className={styles.box}>
           <h2 className={styles.h2text}>
-            B.Com <BsFillJournalBookmarkFill style={{ color: "#d2691e" }} />
+            B.Com <BsFillJournalBookmarkFill style={{ color: "#05386b" }} />
           </h2>
           <h4 className={styles.h4text}>
             <a
