@@ -39,13 +39,13 @@
 .container {
   /* background-image: url(../public/Image/bi7.jpg); */
   background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      right -10% top 12%,
+      right 0% top 6%,
     url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4423.jpg")
       left 10% top 22%,
     url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4420.jpg")
       right 10% top 23%,
     url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      left 5% top 32%,
+      left 5% top 33%,
     url("../public/Image/propng.png") right 1% top 32%,
     url("https://img.freepik.com/premium-vector/farm-robots-harvesting-with-wireless-control_126283-2927.jpg?w=900")
       left 10% bottom 33%,
@@ -59,7 +59,7 @@
       left bottom,
     url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
       right bottom;
-  background-size: 650px, 300px, 300px, 300px, 450px, 350px, 350px, 500px, 400px,
+  background-size: 350px, 300px, 300px, 300px, 450px, 350px, 350px, 500px, 400px,
     400px, 280px;
   background-repeat: no-repeat;
   font-family: "Lora", serif;

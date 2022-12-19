@@ -3,7 +3,7 @@
   text-align: center;
   display: flex;
   padding: 2%;
-  background-image: url("https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1670256922~exp=1670257522~hmac=9e582a18331bf55d72b17bf1624a15743feb7b5db22a4c2c799886b485db3465");
+  /* background-image: url("https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1670256922~exp=1670257522~hmac=9e582a18331bf55d72b17bf1624a15743feb7b5db22a4c2c799886b485db3465"); */
   background-attachment: fixed;
   /* background-size: cover; */
   background-size: 100% 100%;
@@ -14,7 +14,8 @@
   /* filter: blur(1px);
   -webkit-filter: blur(1px); */
   /* background-size: 30% 70%; */
-  background: rgba(232, 215, 143, 0.2);
+  /* background: rgba(232, 215, 143, 0.2); */
+  background-color: rgb(227, 219, 219);
   backdrop-filter: saturate(150%) blur(5px);
   /* background-color: transparent; */
   width: 30%;
