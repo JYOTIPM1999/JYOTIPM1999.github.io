@@ -6,6 +6,7 @@
   align-items: center;
   /* justify-content: center; */
   gap: 40px;
+  /* background-color: rgb(227, 219, 219); */
   text-align: center;
   /* background-color: #D2691E; */
 }
@@ -17,6 +18,7 @@
 .project {
   display: grid;
   margin: auto;
+  background-color: rgb(227, 219, 219);
   grid-template-columns: repeat(2, 1fr);
   /* border: 3px solid #05386b; */
   /* background-color: #05386b; */
@@ -70,11 +72,11 @@
 }
 .para {
   text-align: justify;
-  color: #d2691e;
+  color: #05386b;
   /* background-color: #ffffff; */
   font-weight: 500;
   /* text-shadow: #d2691e 0px 5px 10px; */
-  text-shadow: 3px 2px 9px rgba(128, 55, 78, 0.92);
+  /* text-shadow: 3px 2px 9px rgba(128, 55, 78, 0.92); */
 }
 .image {
   width: 100%;

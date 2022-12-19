@@ -72,7 +72,7 @@ export const Projects = () => {
               <div
                 key={i}
                 className={styles.project}
-                style={{ backgroundImage: `url(${el.back})` }}
+                // style={{ backgroundImage: `url(${el.back})` }}
                 // data-aos="zoom-in-up"
               >
                 <div>
@@ -81,7 +81,7 @@ export const Projects = () => {
                 <div>
                   <h2 className={styles.h2text}>{el.title}</h2>
                   <p className={styles.para}>
-                    <span style={{ color: "#edf5e1", fontSize: "bold" }}>
+                    <span style={{ color: "#05386b", fontSize: "bold" }}>
                       Description:-{" "}
                     </span>
                     {el.desc}
