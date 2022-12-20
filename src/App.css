@@ -127,11 +127,11 @@
   .container {
     background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
         left 50% top 15%,
-      url("../public/Image/propng.png") right 50% top 51.5%,
+      url("../public/Image/propng.png") right 50% top 49%,
       url("https://img.freepik.com/free-vector/manager-planning-event-man-marking-date-calendar-page-flat-illustration_74855-10924.jpg")
-        left 50% bottom 21.5%,
+        left 50% bottom 20.5%,
       url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
-        right 1% bottom 9.5%;
+        right 1% bottom 9%;
     background-size: 550px, 220px, 300px, 180px;
     background-repeat: no-repeat;
   }
