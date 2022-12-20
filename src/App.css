@@ -122,6 +122,10 @@
     background-size: 450px, 300px, 450px, 300px, 300px;
     background-repeat: no-repeat;
   }
+  .resumeBtn {
+    padding: 8px;
+    font-size: 15px;
+  }
 }
 @media (max-width: 514px) {
   .container {
@@ -134,5 +138,9 @@
         right 1% bottom 9%;
     background-size: 550px, 220px, 300px, 180px;
     background-repeat: no-repeat;
+  }
+  .resumeBtn {
+    padding: 6px;
+    font-size: 10px;
   }
 }
