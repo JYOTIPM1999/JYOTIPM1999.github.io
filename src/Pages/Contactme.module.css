@@ -2,12 +2,9 @@
   text-decoration-line: underline;
   text-decoration-style: double;
   color: #05386b;
-  /* text-align: center; */
+  text-align: center;
 }
 .mainDiv {
-  /* background-color: #D2691E; */
-  /* display: flex;
-  justify-content: space-around; */
   padding: 5%;
 }
 .formtag {
@@ -34,7 +31,6 @@
 .inputSubmit:hover {
   background-color: #d2691e;
   color: white;
-  /* border: 2px solid black; */
 }
 
 .atag {
