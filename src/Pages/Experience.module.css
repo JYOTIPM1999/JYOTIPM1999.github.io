@@ -33,16 +33,12 @@
 }
 .ul {
   line-height: 20px;
-  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
   color: #05386b;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
   color: #05386b;
-  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
   font-style: italic;
 }
 
@@ -82,13 +78,9 @@
 .ptext {
   margin-left: 30px;
   font-weight: 600;
-  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
   color: #05386b;
 }
 .college {
-  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
   color: #05386b;
   text-decoration: none;
 }
