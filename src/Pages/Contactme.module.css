@@ -44,24 +44,24 @@
 .github:hover,
 .linkedin:hover,
 .youtube:hover {
-  border: 3px solid #05386b;
-  background-color: #d2691e;
-  color: white;
+  /* border: 3px solid #05386b; */
+  /* background-color: #d2691e; */
+  color: #d2691e;
 }
 .github,
 .linkedin {
-  color: white;
-  border: 3px solid #24292f;
-  padding: 10px;
-  border-radius: 50%;
-  background-color: rgb(7, 7, 105);
+  color: rgb(7, 7, 105);
+  /* border: 3px solid #24292f; */
+  /* padding: 10px; */
+  /* border-radius: 50%; */
+  /* background-color: rgb(7, 7, 105); */
 }
 
 .youtube {
-  border: 3px solid white;
-  padding: 10px;
-  border-radius: 50%;
-  background-color: red;
+  /* border: 3px solid white; */
+  /* padding: 10px; */
+  /* border-radius: 50%; */
+  color: red;
 }
 .phnDiv {
   font-size: 20px;

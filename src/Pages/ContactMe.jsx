@@ -1,5 +1,5 @@
 import styles from "./Contactme.module.css";
-import { FaGithub } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 // import { HiOutlineMail } from "react-icons/hi";
 import { BiPhoneCall } from "react-icons/bi";
@@ -60,7 +60,7 @@ export const ContactMe = () => {
 
         <div className={styles.atag}>
           <a href="https://github.com/JYOTIPM1999" target="_blank">
-            <FaGithub className={styles.github} />
+            <BsGithub className={styles.github} />
           </a>
           <a
             href="https://www.linkedin.com/in/jyoti-prakash-mohapatra-8550a61a5"
