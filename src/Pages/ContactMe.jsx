@@ -42,12 +42,16 @@ export const ContactMe = () => {
               onSubmit={sendEmail}
               className={styles.formtag}
             >
-              <label className={styles.name}>Name</label>
-              <input type="text" name="user_name" />
-              <label className={styles.name}>Email</label>
-              <input type="email" name="user_email" />
-              <label className={styles.name}>Message</label>
-              <textarea name="message" style={{ height: "250px" }}></textarea>
+              {/* <label className={styles.name}>Name</label> */}
+              <input placeholder="Your name" type="text" name="user_name" />
+              {/* <label className={styles.name}>Email</label> */}
+              <input placeholder="Your email" type="email" name="user_email" />
+              {/* <label className={styles.name}>Message</label> */}
+              <textarea
+                placeholder="Write your concerns here..."
+                name="message"
+                style={{ height: "250px" }}
+              ></textarea>
               <br />
               <input
                 type="submit"

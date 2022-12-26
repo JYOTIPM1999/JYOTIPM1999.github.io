@@ -17,7 +17,7 @@
   font-weight: bold;
   background-color: white;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .inputSubmit {
   background-color: white;
@@ -73,6 +73,14 @@
 .name {
   color: #d2691e;
 }
+input,
+textarea {
+  margin-bottom: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
 
 @media (min-width: 515px) and (max-width: 900px) {
   .atag {
@@ -85,6 +93,11 @@
   .formtag {
     width: 200px;
     height: 200px;
+  }
+  input,
+  textarea {
+    padding: 8px;
+    font-size: 10px;
   }
   hr {
     top: -5px;
@@ -107,6 +120,11 @@
     width: 130px;
     height: 160px;
     padding: 20px;
+  }
+  input,
+  textarea {
+    padding: 5px;
+    font-size: 6px;
   }
   .inputSubmit {
     padding: 2px;
