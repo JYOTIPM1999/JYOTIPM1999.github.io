@@ -9,7 +9,7 @@ const GitHub = () => {
       <div id="STATS" style={{ padding: "5%" }}>
         <div w={["100%", "100%", "65%"]} className={styles.mainDiv}>
           <GitHubCalendar
-            style={{ margin: "auto" }}
+            style={{ margin: "auto", color: "#d2691e" }}
             username="JYOTIPM1999"
             year={new Date().getFullYear()}
           />
