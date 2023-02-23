@@ -11,7 +11,7 @@ const GitHub = () => {
           <GitHubCalendar
             style={{ margin: "auto", color: "#d2691e" }}
             username="JYOTIPM1999"
-            year={new Date().getFullYear()}
+            // year={new Date().getFullYear()}
           />
         </div>
       </div>
