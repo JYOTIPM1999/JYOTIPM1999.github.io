@@ -25,7 +25,7 @@ export const Experience = () => {
               target="_blank"
               className={styles.college}
             >
-              Masai School, Bangalore <FiExternalLink />, (02.2022 - 11.2022)
+              Masai School, Bangalore <FiExternalLink />, (02.2022 - 04.2023)
             </a>
           </h4>
 
