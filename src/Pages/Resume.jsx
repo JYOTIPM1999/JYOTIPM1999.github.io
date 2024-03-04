@@ -4,7 +4,7 @@ export const Resume = () => {
   return (
     <div id="RESUME">
       <a
-        href="https://drive.google.com/file/d/1QqhopBMPObPFsZF61IuLP4qtEBQ0RGTU/view?usp=sharing"
+        href="https://drive.google.com/file/d/1VgTXWTtuKv2I-9kiYvy5PFrMiFY5v2q3/view?usp=sharing"
         target="_blank"
         className={styles.atag}
       >
