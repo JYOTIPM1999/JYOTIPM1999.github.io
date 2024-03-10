@@ -66,10 +66,7 @@ export const ContactMe = () => {
           <a href="https://github.com/JYOTIPM1999" target="_blank">
             <BsGithub className={styles.github} />
           </a>
-          <a
-            href="https://www.linkedin.com/in/jyoti-prakash-mohapatra-8550a61a5"
-            target="_blank"
-          >
+          <a href="www.linkedin.com/in/jyotiprakashmohapatra" target="_blank">
             <BsLinkedin className={styles.linkedin} />
           </a>
 
