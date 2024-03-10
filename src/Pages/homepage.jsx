@@ -11,7 +11,7 @@ export const Homepage = () => {
         }}
       > */}
       <div className={styles.imageDiv}>
-        <img src="./Image/self.png" className={styles.image} alt="img" />
+        <img src="./Image/self3.jpg" className={styles.image} alt="img" />
       </div>
       <div>
         <h1 className={styles.name}>
