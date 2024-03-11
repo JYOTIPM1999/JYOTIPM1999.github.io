@@ -22,13 +22,13 @@ export const Homepage = () => {
         <br />
         <p className={styles.para}>
           <span style={{ color: "#D2691E" }}>Hello strangers!</span> 👋, This is
-          Jyoti Prakash Mohapatra a MERN Stack Developer, passionate about
-          building digital products that improve everyday experience for people.
-          Love to work on exciting projects that test what I've learnt, whilst
-          being exposed to the power and potential of the ever-evolving
-          technologies around us. I'm always looking for better, and more
-          importantly, ethical and accessible ways to solve the common problems
-          we are faced with day_to_day life.
+          Jyoti Prakash Mohapatra a Full Stack Developer, offering 9 months of
+          hands-on experience and dedicating 1200 hours to intensive coding.
+          Demonstrated expertise in designing and implementing innovative
+          solutions across diverse projects. Possesses profound knowledge of
+          DSA, consistently producing clean, reusable, and optimized code.
+          Seeking an opportunity in a challenging work environment to further
+          develop skills and deepen understanding of web development.
         </p>
       </div>
       {/* </div> */}
