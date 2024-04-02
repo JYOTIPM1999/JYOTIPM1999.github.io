@@ -7,6 +7,7 @@ export const Skills = () => {
   useEffect(() => {
     AOS.init({ delay: 500 });
   }, []);
+
   return (
     <>
       <h1 className={styles.head}>Skills and Tech</h1>
