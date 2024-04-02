@@ -22,13 +22,14 @@ export const Homepage = () => {
         <br />
         <p className={styles.para}>
           <span style={{ color: "#D2691E" }}>Hello strangers!</span> 👋, This is
-          Jyoti Prakash Mohapatra a Full Stack Developer, offering 9 months of
-          hands-on experience and dedicating 1200 hours to intensive coding.
-          Demonstrated expertise in designing and implementing innovative
-          solutions across diverse projects. Possesses profound knowledge of
-          DSA, consistently producing clean, reusable, and optimized code.
-          Seeking an opportunity in a challenging work environment to further
-          develop skills and deepen understanding of web development.
+          Jyoti Prakash Mohapatra an experienced Full Stack Developer (MERN)
+          with Proficiency in React Native (Mobile Development) offering 2 years
+          of hands-on experience. Demonstrated expertise in designing and
+          implementing innovative solutions across diverse projects. Possesses
+          profound knowledge of DSA, consistently producing clean, reusable, and
+          optimized code. Seeking an opportunity in a challenging work
+          environment to further develop skills and deepen understanding of web
+          development.
         </p>
       </div>
       {/* </div> */}

@@ -17,6 +17,14 @@ export const Skills = () => {
           <div
           // data-aos="flip-up"
           >
+            <img src="./Image/react-native.png" alt="react-native.png" />
+          </div>
+          <div>
+            <img src="./Image/react-native2.png" alt="react-native2.png" />
+          </div>
+          <div
+          // data-aos="flip-up"
+          >
             <img src="./Image/html5.png" alt="html5.png" />
           </div>
           <div
@@ -28,11 +36,6 @@ export const Skills = () => {
           // data-aos="flip-up"
           >
             <img src="./Image/javascript.png" alt="javascript.png" />
-          </div>
-          <div
-          // data-aos="flip-up"
-          >
-            <img src="./Image/react-native.png" alt="react-native.png" />
           </div>
           <div
           // data-aos="flip-right"
