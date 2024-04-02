@@ -14,24 +14,23 @@ export const Skills = () => {
           <img src="./Image/skills.gif" />
         </div>
         <div className={styles.skill}>
-          <div
-          // data-aos="flip-up"
-          >
+          <div>
+            <img src="./Image/expo.png" alt="expo.png" />
+          </div>
+
+          <div>
+            <img src="./Image/mobile.png" alt="mobile.png" />
+          </div>
+          <div>
             <img src="./Image/react-native.png" alt="react-native.png" />
           </div>
           <div>
             <img src="./Image/react-native2.png" alt="react-native2.png" />
           </div>
-          <div
-          // data-aos="flip-up"
-          >
-            <img src="./Image/html5.png" alt="html5.png" />
+          <div>
+            <img src="./Image/mysql.png" alt="mysql.png" />
           </div>
-          <div
-          // data-aos="flip-up"
-          >
-            <img src="./Image/css3.png" alt="css3.png" />
-          </div>
+
           <div
           // data-aos="flip-up"
           >
@@ -76,6 +75,12 @@ export const Skills = () => {
           // data-aos="fade-right"
           >
             <img src="./Image/git.png" alt="git.png" />
+          </div>
+          <div>
+            <img src="./Image/html5.png" alt="html5.png" />
+          </div>
+          <div>
+            <img src="./Image/css3.png" alt="css3.png" />
           </div>
         </div>
       </div>
