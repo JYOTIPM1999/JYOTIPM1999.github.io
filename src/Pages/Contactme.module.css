@@ -1,0 +1,153 @@
+.head {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  color: #05386b;
+  text-align: center;
+}
+.mainDiv {
+  padding: 5%;
+}
+.formtag {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 450px;
+  height: 440px;
+  padding: 20px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.inputSubmit {
+  background-color: white;
+  padding: 5px;
+  color: #d2691e;
+  border: 2px solid #d2691e;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.inputSubmit:hover {
+  background-color: #d2691e;
+  color: white;
+}
+
+.atag {
+  margin: auto;
+  margin-top: 20px;
+  width: 23%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.github:hover,
+.linkedin:hover,
+.youtube:hover {
+  /* border: 3px solid #05386b; */
+  /* background-color: #d2691e; */
+  color: #d2691e;
+}
+.github,
+.linkedin {
+  color: rgb(7, 7, 105);
+  /* border: 3px solid #24292f; */
+  /* padding: 10px; */
+  /* border-radius: 50%; */
+  /* background-color: rgb(7, 7, 105); */
+}
+
+.youtube {
+  /* border: 3px solid white; */
+  /* padding: 10px; */
+  /* border-radius: 50%; */
+  color: red;
+}
+.phnDiv {
+  font-size: 20px;
+}
+.imgTag {
+  height: 35%;
+  width: 35%;
+}
+.name {
+  color: #d2691e;
+}
+input,
+textarea {
+  margin-bottom: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+@media (min-width: 515px) and (max-width: 900px) {
+  .atag {
+    width: 45%;
+    font-size: 25px;
+  }
+  .head {
+    font-size: 25px;
+  }
+  .formtag {
+    width: 200px;
+    height: 200px;
+  }
+  input,
+  textarea {
+    padding: 8px;
+    font-size: 10px;
+  }
+  hr {
+    top: -5px;
+    height: 4px;
+  }
+  .phnDiv {
+    font-size: 15px;
+  }
+}
+@media (max-width: 514px) {
+  .atag {
+    width: 65%;
+
+    font-size: 20px;
+  }
+  .head {
+    font-size: 20px;
+  }
+  .formtag {
+    width: 130px;
+    height: 160px;
+    padding: 20px;
+  }
+  input,
+  textarea {
+    padding: 5px;
+    font-size: 6px;
+  }
+  .inputSubmit {
+    padding: 2px;
+    border-radius: 10px;
+  }
+  hr {
+    top: -5px;
+    height: 3px;
+  }
+  .phnDiv {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 10px;
+  }
+  .imgTag {
+    height: 200px;
+    width: 150px;
+  }
+  .github,
+  .linkedin,
+  .youtube,
+  p {
+    font-size: 10px;
+  }
+}
