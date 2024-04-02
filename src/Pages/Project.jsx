@@ -79,12 +79,7 @@ export const Projects = () => {
         <div>
           {project.map((el, i) => {
             return (
-              <div
-                key={i}
-                className={styles.project}
-                // style={{ backgroundImage: `url(${el.back})` }}
-                // data-aos="zoom-in-up"
-              >
+              <div key={i} className={styles.project}>
                 <div>
                   <img src={el.image} alt={el.alt} className={styles.image} />
                 </div>
@@ -114,9 +109,6 @@ export const Projects = () => {
             );
           })}
         </div>
-        {/* <div>
-          <img src="./Image/project.gif" className={styles.projectIcon} />
-        </div> */}
       </div>
     </>
   );
