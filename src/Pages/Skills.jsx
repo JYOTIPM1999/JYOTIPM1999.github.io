@@ -2,6 +2,7 @@ import styles from "./skills.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 export const Skills = () => {
   useEffect(() => {
     AOS.init({ delay: 500 });
@@ -31,49 +32,31 @@ export const Skills = () => {
             <img src="./Image/mysql.png" alt="mysql.png" />
           </div>
 
-          <div
-          // data-aos="flip-up"
-          >
+          <div>
             <img src="./Image/javascript.png" alt="javascript.png" />
           </div>
-          <div
-          // data-aos="flip-right"
-          >
+          <div>
             <img src="./Image/redux.png" alt="redux.png" />
           </div>
-          <div
-          // data-aos="flip-right"
-          >
+          <div>
             <img src="./Image/nodejs.png" alt="nodejs.png" />
           </div>
-          <div
-          // data-aos="flip-right"
-          >
+          <div>
             <img src="./Image/expressjs.png" alt="expressjs.png" />
           </div>
-          <div
-          // data-aos="flip-right"
-          >
+          <div>
             <img src="./Image/mongo.png" alt="mongo.png" />
           </div>
-          <div
-          // data-aos="fade-right"
-          >
+          <div>
             <img src="./Image/github.png" alt="github.png" />
           </div>
-          <div
-          // data-aos="fade-right"
-          >
+          <div>
             <img src="./Image/DSA2.png" alt="DSA2.png" />
           </div>
-          <div
-          // data-aos="fade-right"
-          >
+          <div>
             <img src="./Image/npm.png" alt="npm.png" />
           </div>
-          <div
-          // data-aos="fade-right"
-          >
+          <div>
             <img src="./Image/git.png" alt="git.png" />
           </div>
           <div>
