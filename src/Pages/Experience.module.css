@@ -2,6 +2,7 @@
   margin: auto;
   text-align: center;
   display: flex;
+  /* justify-content: space-between; */
   padding: 2%;
   /* background-image: url("https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1670256922~exp=1670257522~hmac=9e582a18331bf55d72b17bf1624a15743feb7b5db22a4c2c799886b485db3465"); */
   background-attachment: fixed;
@@ -15,12 +16,14 @@
   -webkit-filter: blur(1px); */
   /* background-size: 30% 70%; */
   /* background: rgba(232, 215, 143, 0.2); */
-  background-color: rgb(227, 219, 219);
+  /* background-color: rgb(234, 132, 78); */
+  background-image: linear-gradient(to bottom right, #e2b36c, #e27d3a);
   backdrop-filter: saturate(150%) blur(5px);
+
   /* background-color: transparent; */
   width: 30%;
   border-radius: 20px;
-  height: auto;
+  height: 200px;
   margin: auto;
   margin-bottom: 20px;
   text-align: justify;
@@ -33,12 +36,12 @@
 }
 .ul {
   line-height: 20px;
-  color: #05386b;
+  color: whitesmoke;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
-  color: #05386b;
+  color: whitesmoke;
   font-style: italic;
 }
 
@@ -49,7 +52,7 @@
   text-decoration-style: double;
 }
 .h2text {
-  color: #05386b;
+  color: whitesmoke;
   font-weight: bold;
   /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
     1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
@@ -78,10 +81,10 @@
 .ptext {
   margin-left: 30px;
   font-weight: 600;
-  color: #05386b;
+  color: whitesmoke;
 }
 .college {
-  color: #05386b;
+  color: whitesmoke;
   text-decoration: none;
 }
 @media (min-width: 515px) and (max-width: 900px) {
@@ -92,7 +95,9 @@
     font-size: 25px;
   }
   .box {
+    background-image: linear-gradient(to right, #e2b36c, #e27d3a);
     width: 70%;
+    height: auto;
     line-height: 18px;
     background-size: 80% 70%;
   }
@@ -106,6 +111,8 @@
   }
   .box {
     width: 70%;
+    background-image: linear-gradient(to left, #e2b36c, #e27d3a);
+    height: auto;
     line-height: 18px;
     background-size: 100% 40%;
   }
