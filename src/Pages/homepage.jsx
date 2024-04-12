@@ -23,7 +23,7 @@ export const Homepage = () => {
         <p className={styles.para}>
           <span style={{ color: "#D2691E" }}>Hello strangers!</span> 👋, This is
           Jyoti Prakash Mohapatra an experienced Full Stack Developer (MERN)
-          with Proficiency in React Native (Mobile Development) offering 2 years
+          with Proficiency in React Native (Mobile Development) offering 1 year
           of hands-on experience. Demonstrated expertise in designing and
           implementing innovative solutions across diverse projects. Possesses
           profound knowledge of DSA, consistently producing clean, reusable, and
