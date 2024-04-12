@@ -52,7 +52,7 @@ function App() {
       <ContactMe />
       <p style={{ textAlign: "center", color: "#05386b" }}>
         Designed by - Jyoti Prakash Mohapatra | jyotipm1999@gmail.com | All
-        rights reserved, 2022
+        rights reserved, 2024
       </p>
     </div>
   );
