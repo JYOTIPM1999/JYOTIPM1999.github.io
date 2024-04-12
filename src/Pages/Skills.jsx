@@ -13,7 +13,7 @@ export const Skills = () => {
       <h1 className={styles.head}>Skills and Tech</h1>
       <div id="SKILLS" className={styles.main}>
         <div className={styles.gif}>
-          <img src="./Image/skills2.gif" />
+          <img src="./Image/skills.gif" />
         </div>
         <div className={styles.skill}>
           <div>
