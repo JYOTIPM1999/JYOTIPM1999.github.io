@@ -6,13 +6,19 @@ const GitHub = () => {
   return (
     <>
       <h1 className={styles.h1Tag}>Github Calender & Stats</h1>
-      <div id="STATS" style={{ padding: "5%" }}>
-        <div w={["100%", "100%", "65%"]} className={styles.mainDiv}>
-          <GitHubCalendar
-            style={{ margin: "auto", color: "#d2691e" }}
-            username="JYOTIPM1999"
-            // year={new Date().getFullYear()}
-          />
+      <div
+        style={{
+          backgroundImage: "linear-gradient(to top left, #252a34, #FF2E63)",
+        }}
+      >
+        <div id="STATS" style={{ padding: "5%" }}>
+          <div w={["100%", "100%", "65%"]} className={styles.mainDiv}>
+            <GitHubCalendar
+              style={{ margin: "auto", color: "#EAEAEA" }}
+              username="JYOTIPM1999"
+              // year={new Date().getFullYear()}
+            />
+          </div>
         </div>
       </div>
     </>

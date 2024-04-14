@@ -85,7 +85,7 @@ export const ContactMe = () => {
           className={styles.phnDiv}
           style={{
             display: "flex",
-            color: "#05386b",
+            color: "#252a34",
             justifyContent: "center",
             gap: "20px",
             // fontFamily: "Lato",

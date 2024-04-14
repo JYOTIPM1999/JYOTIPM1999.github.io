@@ -10,8 +10,8 @@
   box-shadow: 0px 8px 16px 0px rgba(148, 18, 18, 0.2);
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #d2691e;
-  background-color: whitesmoke;
+  border-bottom: 1px solid #252a34;
+  background-color: #eaeaea;
 }
 .linkTag {
   width: 20%;
@@ -30,12 +30,12 @@
 .lii,
 .resume {
   list-style: none;
-  color: #d2691e;
+  color: #ff2e63;
   font-weight: bold;
 }
 .lii:active {
   cursor: pointer;
-  color: white;
+  color: #252a34;
 }
 .lii:hover {
   cursor: pointer;
@@ -93,7 +93,7 @@
     font-size: 8px;
 
     list-style: none;
-    color: #d2691e;
+    color: #ff2e63;
     font-weight: bold;
   }
 }

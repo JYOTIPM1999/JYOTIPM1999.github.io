@@ -1,15 +1,19 @@
+.head {
+  color: #ff2e63;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
 .main {
   margin: auto;
-  /* width: 100%; */
   padding: 2%;
   display: flex;
   gap: 20px;
-  /* background-color: #D2691E; */
+  background-color: #eaeaea;
 }
 .gif img {
-  width: 100%;
+  width: 150%;
   height: 90%;
-  border-radius: 20px;
 }
 .skill {
   display: grid;
@@ -18,8 +22,8 @@
   gap: 20px;
 }
 .main > div > div {
-  border: 3px solid whitesmoke;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 3px solid #252a34;
+  box-shadow: #252a34 0px 5px 15px;
   border-radius: 20px;
   padding: 10px;
   /* transition: transform 2s; */
@@ -29,16 +33,40 @@
   width: 120px;
 }
 .main > div > div:hover {
-  border: 3px solid #d2691e;
+  border: 3px solid #ff2e63;
   /* transform: scale(1.2); */
   cursor: pointer;
 }
-.head {
-  color: #05386b;
-  text-align: center;
-  text-decoration-line: underline;
-  text-decoration-style: double;
+/* .background-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1;
+  overflow: hidden;
 }
+
+.custom-shape-divider-bottom-1713068854 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713068854 svg {
+  position: absolute;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1713068854 .shape-fill {
+  fill: #ff2e63;
+} */
 
 @media (min-width: 515px) and (max-width: 900px) {
   .head {

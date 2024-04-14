@@ -1,7 +1,7 @@
 .head {
   text-decoration-line: underline;
   text-decoration-style: double;
-  color: #05386b;
+  color: #ff2e63;
   text-align: center;
 }
 .mainDiv {
@@ -15,22 +15,23 @@
   height: 440px;
   padding: 20px;
   font-weight: bold;
-  background-color: white;
+  background-color: #eaeaea;
   border-radius: 20px;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .inputSubmit {
-  background-color: white;
+  /* background-color: #08d9d6; */
+  background-image: linear-gradient(to right, #252a34, #08d9d6);
   padding: 5px;
-  color: #d2691e;
-  border: 2px solid #d2691e;
+  color: #252a34;
+  border: 2px solid #252a34;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
 }
 .inputSubmit:hover {
-  background-color: #d2691e;
-  color: white;
+  background-image: linear-gradient(to left, #252a34, #ff2e63);
+  color: #eaeaea;
 }
 
 .atag {
@@ -46,11 +47,11 @@
 .youtube:hover {
   /* border: 3px solid #05386b; */
   /* background-color: #d2691e; */
-  color: #d2691e;
+  color: #ff2e63;
 }
 .github,
 .linkedin {
-  color: rgb(7, 7, 105);
+  color: #252a34;
   /* border: 3px solid #24292f; */
   /* padding: 10px; */
   /* border-radius: 50%; */
@@ -69,9 +70,6 @@
 .imgTag {
   height: 35%;
   width: 35%;
-}
-.name {
-  color: #d2691e;
 }
 input,
 textarea {

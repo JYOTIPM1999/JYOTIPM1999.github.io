@@ -3,19 +3,20 @@
   font-weight: bold;
   padding: 20px;
   border-radius: 10px;
-  background-image: url("https://img.freepik.com/free-vector/purple-fluid-background-frame_53876-99020.jpg?w=996&t=st=1670255886~exp=1670256486~hmac=acf666f94504bc4de47c5cb4b8800bda3ca41a339b6cc5e95c8a11f4ccc7bd5b");
+  /* background-image: linear-gradient(to bottom left, #252a34, #08d9d6); */
+  /* background-image: url("https://img.freepik.com/free-vector/purple-fluid-background-frame_53876-99020.jpg?w=996&t=st=1670255886~exp=1670256486~hmac=acf666f94504bc4de47c5cb4b8800bda3ca41a339b6cc5e95c8a11f4ccc7bd5b"); */
   background-size: cover;
-  color: #05386b;
+  color: #ff2e63;
   width: 80%;
 }
 .mainDiv:hover {
   /* background-color: #D2691E; */
-  color: #05386b;
+  color: #ff2e63;
 }
 .h1Tag {
   text-decoration-line: underline;
   text-decoration-style: double;
-  color: #D2691E;
+  color: #252a34;
   text-align: center;
 }
 

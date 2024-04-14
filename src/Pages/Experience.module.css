@@ -2,25 +2,13 @@
   margin: auto;
   text-align: center;
   display: flex;
-  /* justify-content: space-between; */
   padding: 2%;
-  /* background-image: url("https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1670256922~exp=1670257522~hmac=9e582a18331bf55d72b17bf1624a15743feb7b5db22a4c2c799886b485db3465"); */
   background-attachment: fixed;
-  /* background-size: cover; */
   background-size: 100% 100%;
 }
 .box {
-  /* background-image: url("https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1670256922~exp=1670257522~hmac=9e582a18331bf55d72b17bf1624a15743feb7b5db22a4c2c799886b485db3465");
-  background-attachment: fixed; */
-  /* filter: blur(1px);
-  -webkit-filter: blur(1px); */
-  /* background-size: 30% 70%; */
-  /* background: rgba(232, 215, 143, 0.2); */
-  /* background-color: rgb(234, 132, 78); */
-  background-image: linear-gradient(to bottom right, #e2b36c, #e27d3a);
+  background-image: linear-gradient(to bottom right, #252a34, #08d9d6);
   backdrop-filter: saturate(150%) blur(5px);
-
-  /* background-color: transparent; */
   width: 30%;
   border-radius: 20px;
   height: 200px;
@@ -36,55 +24,32 @@
 }
 .ul {
   line-height: 20px;
-  color: whitesmoke;
+  color: #eaeaea;
   font-size: 15px;
   font-weight: 500;
 }
 .h5 {
-  color: whitesmoke;
+  color: #eaeaea;
   font-style: italic;
 }
 
 .head {
-  color: #d2691e;
+  color: #252a34;
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
 }
 .h2text {
-  color: whitesmoke;
+  color: #eaeaea;
   font-weight: bold;
-  /* text-shadow: 2px 0 #d2691e, -2px 0 #d2691e, 0 2px #d2691e, 0 -2px #d2691e,
-    1px 1px #d2691e, -1px -1px #d2691e, 1px -1px #d2691e, -1px 1px #d2691e; */
-  /* background-color: linear-gradient(
-    90deg,
-    #ff0000,
-    #ffff00,
-    #ff00f3,
-    #0033ff,
-    #ff00c4,
-    #ff0000
-  );
-  background-size: 400%;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  animation: animate 10s linear infinite; */
 }
-/* @keyframes animate {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 400%;
-  }
-} */
 .ptext {
   margin-left: 30px;
   font-weight: 600;
-  color: whitesmoke;
+  color: #eaeaea;
 }
 .college {
-  color: whitesmoke;
+  color: #eaeaea;
   text-decoration: none;
 }
 @media (min-width: 515px) and (max-width: 900px) {
@@ -95,7 +60,7 @@
     font-size: 25px;
   }
   .box {
-    background-image: linear-gradient(to right, #e2b36c, #e27d3a);
+    background-image: linear-gradient(to right, #252a34, #08d9d6);
     width: 70%;
     height: auto;
     line-height: 18px;
@@ -111,7 +76,7 @@
   }
   .box {
     width: 70%;
-    background-image: linear-gradient(to left, #e2b36c, #e27d3a);
+    background-image: linear-gradient(to left, #252a34, #08d9d6);
     height: auto;
     line-height: 18px;
     background-size: 100% 40%;

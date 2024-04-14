@@ -1,8 +1,4 @@
-/* body {
-} */
 .main {
-  /* background-image: url("https://img.freepik.com/premium-vector/purple-fluid-background-free-vector_654626-11.jpg"); */
-  /* background-attachment: fixed; */
   background-size: 100% 100%;
   display: flex;
   justify-content: space-around;
@@ -10,17 +6,14 @@
   gap: 10px;
   padding: 20px;
 }
+
 .imageDiv {
   width: 70%;
   height: 85%;
   margin: auto;
   border-radius: 30%;
-  /* position: relative; */
-  /* border: 2px solid #05386b; */
-  background: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: #252a34 3.95px 3.95px 3.6px;
 }
-
 .image {
   height: 100%;
   width: 100%;
@@ -29,7 +22,7 @@
 .name {
   margin: auto;
   text-align: center;
-  color: #d2691e;
+  color: #252a34;
 }
 .para {
   margin: auto;
@@ -38,7 +31,7 @@
   width: 80%;
   /* text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
     1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; */
-  color: #05386b;
+  color: #252a34;
   text-align: justify;
 }
 @media (min-width: 515px) and (max-width: 900px) {
@@ -77,6 +70,6 @@
   .para {
     width: 90%;
     font-size: 12px;
-    color: black;
+    color: 252A34;
   }
 }

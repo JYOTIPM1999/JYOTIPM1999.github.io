@@ -1,7 +1,7 @@
 .parent {
   display: flex;
   flex-direction: column;
-  /* background-color: #05386b; */
+  background-image: linear-gradient(to bottom left, #252a34, #ff2e63);
 }
 
 .first {
