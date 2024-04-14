@@ -39,26 +39,25 @@
 .container {
   /* background-image: url(../public/Image/bi7.jpg); */
   background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      right 0% top 5.5%,
-    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4420.jpg")
-      right 10% top 23%,
-    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      left 5% top 33%,
-    url("../public/Image/propng.png") right 1% top 33%,
+      right 0% top 5.4%,
+    /* url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4420.jpg")
+      right 10% top 23%, */
+      /* url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
+      left 5% top 33%, */
+      url("../public/Image/propng.png") right 1% top 33%,
     url("https://img.freepik.com/premium-vector/farm-robots-harvesting-with-wireless-control_126283-2927.jpg?w=900")
       left 10% bottom 30%,
     url("https://img.freepik.com/premium-vector/genetic-dna-science-tiny-scientists-investigating-diagnosis-testing-dna-with-microscope_501813-790.jpg")
       right 10% bottom 30%,
     url("https://img.freepik.com/free-vector/manager-planning-event-man-marking-date-calendar-page-flat-illustration_74855-10924.jpg")
-      left 1% bottom 22%,
-    url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
-      right 5% bottom 13%,
-    url("https://img.freepik.com/free-vector/female-patient-doctor-office_74855-6460.jpg?t=st=1670230556~exp=1670231156~hmac=1b14bdecb3a5c4bb064b6f9963beb3fdbebe1c2d693d76da90f757d98eb2cb4c")
-      left bottom,
-    url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-      right bottom;
-  background-size: 350px, 280px, 300px, 280px, 450px, 350px, 350px, 500px, 400px,
-    400px, 280px;
+      left 1% bottom 22%;
+  /* url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
+      right 5% bottom 13%, */
+  /* url("https://img.freepik.com/free-vector/female-patient-doctor-office_74855-6460.jpg?t=st=1670230556~exp=1670231156~hmac=1b14bdecb3a5c4bb064b6f9963beb3fdbebe1c2d693d76da90f757d98eb2cb4c")
+      left bottom; */
+  /* url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
+      right bottom; */
+  background-size: 350px, 380px, 450px, 350px, 350px, 500px;
   background-repeat: no-repeat;
   font-family: "Lora", serif;
 }
@@ -139,18 +138,14 @@
   background: #08d9d6;
 }
 
-@media (min-width: 515px) and (max-width: 900px) {
+@media (min-width: 650px) and (max-width: 1024px) {
   .container {
-    background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-        right -10% top 15%,
-      url("../public/Image/propng.png") right 1% top 40%,
+    background: url("../public/Image/propng.png") right 50% top 43.5%,
       url("https://img.freepik.com/free-vector/manager-planning-event-man-marking-date-calendar-page-flat-illustration_74855-10924.jpg")
-        left 50% bottom 24%,
+        left 50% bottom 22%,
       url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
-        right 5% bottom 9%,
-      url("https://img.freepik.com/free-vector/female-patient-doctor-office_74855-6460.jpg?t=st=1670230556~exp=1670231156~hmac=1b14bdecb3a5c4bb064b6f9963beb3fdbebe1c2d693d76da90f757d98eb2cb4c")
-        left bottom 8%;
-    background-size: 450px, 300px, 450px, 300px, 300px;
+        right 5% bottom 7.5%;
+    background-size: 250px, 350px, 250px;
     background-repeat: no-repeat;
   }
   .resumeBtn {
@@ -158,16 +153,16 @@
     font-size: 15px;
   }
 }
-@media (max-width: 514px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .container {
     background: url("https://img.freepik.com/premium-vector/abstract-gradient-colored-pattern-background-fluid-elements-design-birthday-party-card-shop-sale-advertising-summer-rest-poster-night-club-t-shirt-bag-print-etc_292734-4422.jpg?w=740")
-        left 50% top 15%,
-      url("../public/Image/propng.png") right 50% top 47.5%,
+        left 10% top 10%,
+      url("../public/Image/propng.png") right 50% top 51%,
       url("https://img.freepik.com/free-vector/manager-planning-event-man-marking-date-calendar-page-flat-illustration_74855-10924.jpg")
-        left 50% bottom 20.5%,
+        left 50% bottom 19.5%,
       url("https://img.freepik.com/premium-vector/devops-process-laptop-tiny-programmers-practice-development-software-operations_501813-1712.jpg")
-        right 1% bottom 9%;
-    background-size: 550px, 220px, 300px, 180px;
+        right 50% bottom 8.1%;
+    background-size: 120px, 220px, 300px, 140px;
     background-repeat: no-repeat;
   }
   .resumeBtn {

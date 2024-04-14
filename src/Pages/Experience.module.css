@@ -52,7 +52,7 @@
   color: #eaeaea;
   text-decoration: none;
 }
-@media (min-width: 515px) and (max-width: 900px) {
+@media (min-width: 650px) and (max-width: 1024px) {
   .mainDiv {
     display: block;
   }
@@ -67,7 +67,7 @@
     background-size: 80% 70%;
   }
 }
-@media (max-width: 514px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .mainDiv {
     display: block;
   }

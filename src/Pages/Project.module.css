@@ -74,7 +74,7 @@ a {
   text-align: center;
 }
 
-@media (min-width: 515px) and (max-width: 900px) {
+@media (min-width: 650px) and (max-width: 1024px) {
   .main {
     padding: 10%;
   }
@@ -96,7 +96,7 @@ a {
     border-radius: 20px;
   }
   .h2text {
-    font-size: 15px;
+    font-size: 13px;
   }
   .para {
     font-size: 12px;
@@ -112,7 +112,7 @@ a {
     font-size: 25px;
   }
 }
-@media (max-width: 514px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .main {
     /* width: 98%; */
     /* gap: 20px; */

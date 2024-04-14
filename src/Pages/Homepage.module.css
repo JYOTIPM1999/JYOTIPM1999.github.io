@@ -34,7 +34,7 @@
   color: #252a34;
   text-align: justify;
 }
-@media (min-width: 515px) and (max-width: 900px) {
+@media (min-width: 650px) and (max-width: 1024px) {
   .main {
     display: block;
     height: 400px;
@@ -54,7 +54,7 @@
     /* color: #bcfd4c; */
   }
 }
-@media (max-width: 514px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .main {
     display: block;
     /* background-image: url(""); */

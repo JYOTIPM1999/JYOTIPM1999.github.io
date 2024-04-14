@@ -80,7 +80,7 @@
   fill: #ff2e63;
 } */
 
-@media (min-width: 515px) and (max-width: 900px) {
+@media (min-width: 650px) and (max-width: 1024px) {
   .head {
     font-size: 25px;
   }
@@ -107,7 +107,7 @@
     transform: scale(1.15);
   }
 }
-@media (max-width: 514px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .head {
     font-size: 20px;
   }

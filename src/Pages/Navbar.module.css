@@ -44,7 +44,7 @@
     1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; */
 }
 
-@media (min-width: 515px) and (max-width: 900px) {
+@media (min-width: 650px) and (max-width: 1024px) {
   .mainDiv {
     justify-content: space-between;
     gap: 0;
@@ -61,7 +61,7 @@
     height: 40px;
   }
 }
-@media (max-width: 514px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .mainDiv {
     /* border: 1px solid red; */
     justify-content: space-around;
