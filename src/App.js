@@ -25,7 +25,7 @@ function App() {
 
       <br />
       <div className="resume">
-        <a href="./Jyoti-Prakash-Mohapatra.pdf" download>
+        <a href="./Jyoti_Prakash_Mohapatra_Resume.pdf" download>
           <button className="resumeBtn">
             Resume
             <TbFileDownload style={{ marginLeft: "5px" }} />

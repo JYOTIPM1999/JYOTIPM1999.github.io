@@ -17,6 +17,31 @@ export const Experience = () => {
       <div id="EXPERIENCE" className={styles.mainDiv}>
         <div className={styles.box}>
           <h2 className={styles.h2text}>
+            Software Developer{" "}
+            <FaNetworkWired style={{ color: "#EAEAEA", marginLeft: "5px" }} />
+          </h2>
+          <h4 className={styles.h4text}>
+            <a
+              href="https://webreinvent.com/"
+              target="_blank"
+              className={styles.college}
+            >
+              Webreinvent Technologies, Delhi <FiExternalLink />, (04.2024 -
+              07.2024)
+            </a>
+          </h4>
+          <h5 className={styles.h5}>
+            Studied
+            <ul className={styles.ul}>
+              <li>Typescript </li>
+              <li>Testings </li>
+              <li>ReactJs </li>
+              <li>VueJs </li>
+            </ul>
+          </h5>
+        </div>
+        <div className={styles.box}>
+          <h2 className={styles.h2text}>
             Specialist
             <FaNetworkWired style={{ color: "#EAEAEA", marginLeft: "5px" }} />
           </h2>
@@ -26,7 +51,7 @@ export const Experience = () => {
               target="_blank"
               className={styles.college}
             >
-              Price Waterhouse Coopers <FiExternalLink />
+              Price Waterhouse Coopers <FiExternalLink />, (05.2023 - 01.2024)
             </a>
           </h4>
 
@@ -38,12 +63,13 @@ export const Experience = () => {
             Worked on
             <ul className={styles.ul}>
               <li>UI </li>
-              <li>Full Stack development </li>
+              <li>ReactJs </li>
               <li>MERN Stack </li>
-              <li>SOC Analyst</li>
+              <li>Front-end</li>
             </ul>
           </h5>
         </div>
+
         <div className={styles.box}>
           <h2 className={styles.h2text}>
             Full Stack Web Development{" "}
@@ -67,30 +93,6 @@ export const Experience = () => {
               <li>JavaScript </li>
               <li>Data Structure and Algorithms </li>
               <li>Soft Skills </li>
-            </ul>
-          </h5>
-        </div>
-
-        <div className={styles.box}>
-          <h2 className={styles.h2text}>
-            B.Com <BsFillJournalBookmarkFill style={{ color: "#EAEAEA" }} />
-          </h2>
-          <h4 className={styles.h4text}>
-            <a
-              href="https://utkaluniversity.ac.in/"
-              target="_blank"
-              className={styles.college}
-            >
-              Utkal University, Bhubaneswar <FiExternalLink />, (08.2016 -
-              03.2019)
-            </a>
-          </h4>
-          <h5 className={styles.h5}>
-            Studied
-            <ul className={styles.ul}>
-              <li>Accountancy </li>
-              <li>Taxation </li>
-              <li>Audit </li>
             </ul>
           </h5>
         </div>
